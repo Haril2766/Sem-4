@@ -89,6 +89,25 @@ namespace Lab_3
 
             //Program-6
 
+            //CaseChanger c1 = new CaseChanger();
+
+            //String x = Console.ReadLine();
+            //String Y = c1.Change(x);
+
+            //Console.WriteLine(Y);
+            
+
+            //Program-7
+                
+            //Shape a1 = new Shape();
+
+            //double x = a1.AreaOfCircle(3);
+            //double y = a1.AreaOfSquare(3);
+            //double z = a1.AreaOfTriangle(3, 4);
+
+            //Console.WriteLine("Area of Circle is : " + x);
+            //Console.WriteLine("Area of Sqaure is : " + y);
+            //Console.WriteLine("Area of Triangle is : " + z);
 
         }
     }
