@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|c:\\users\\parma\\desktop\\sem-4\\.netcore\\lab-2\\areaofrectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|solutionrelative:areaofrectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|c:\\users\\parma\\desktop\\sem-4\\.netcore\\lab-2\\furniture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|solutionrelative:furniture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|c:\\users\\parma\\desktop\\sem-4\\.netcore\\lab-2\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|c:\\users\\parma\\desktop\\sem-4\\.netcore\\lab-2\\distance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|solutionrelative:distance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\bank_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|solutionrelative:bank_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|c:\\users\\parma\\desktop\\sem-4\\.netcore\\lab-2\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|solutionrelative:salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,9 +34,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAUwGgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T04:43:07.202Z",
               "IsPinned": true,
@@ -45,40 +45,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AreaOfRectangle.cs",
-              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\AreaOfRectangle.cs",
-              "RelativeDocumentMoniker": "AreaOfRectangle.cs",
-              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\AreaOfRectangle.cs",
-              "RelativeToolTip": "AreaOfRectangle.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAPAAAAAAAAAA==",
+              "Title": "Furniture.cs",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\Furniture.cs",
+              "RelativeDocumentMoniker": "Furniture.cs",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\Furniture.cs*",
+              "RelativeToolTip": "Furniture.cs*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwBUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T04:49:35.13Z",
+              "WhenOpened": "2024-12-11T13:03:30.367Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\Student.cs",
-              "RelativeDocumentMoniker": "Student.cs",
-              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\Student.cs",
-              "RelativeToolTip": "Student.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAmwBgAAAAJAAAAAAAAAA==",
+              "Title": "Distance.cs",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\Distance.cs",
+              "RelativeDocumentMoniker": "Distance.cs",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\Distance.cs",
+              "RelativeToolTip": "Distance.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T04:38:15.375Z",
+              "WhenOpened": "2024-12-11T12:55:03.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Bank_Account.cs",
-              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\Bank_Account.cs",
-              "RelativeDocumentMoniker": "Bank_Account.cs",
-              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\Bank_Account.cs",
-              "RelativeToolTip": "Bank_Account.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAIwCwAAAApAAAAAAAAAA==",
+              "Title": "Salary.cs",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\Salary.cs",
+              "RelativeDocumentMoniker": "Salary.cs",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\Salary.cs",
+              "RelativeToolTip": "Salary.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T05:31:26.18Z",
+              "WhenOpened": "2024-12-11T12:42:15.064Z",
               "EditorCaption": ""
             }
           ]

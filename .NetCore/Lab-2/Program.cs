@@ -68,9 +68,43 @@ namespace Lab_2
             //double Area = C1.FindArea();
             //Console.WriteLine("Area Of Rectangle Is : "+Area);
 
+            //Program-6 
 
+            //Account_Details account = new Account_Details();
+            //Intrest intrest = new Intrest();
 
+            //account.GetDetails();
+            //double i = intrest.CalculateIntrest();
 
+            //Console.WriteLine($"Your Instrest is {i}");
+
+            //Program-7
+            //Console.Write("Enter Value Of Basic : ");
+            //double Basic = Convert.ToDouble(Console.ReadLine());
+            //Console.Write("Enter Value Of TA : ");
+            //double TA = Convert.ToDouble(Console.ReadLine());
+
+            //Salary s1 = new Salary(Basic,TA);
+            //double salary = s1.CalculateTotalSalary();
+
+            //Console.WriteLine($"Calute Salary is {salary}");
+
+            //Program-8
+            //Console.Write("Enter Value Of Dist1 : ");
+            //double Dist1 = Convert.ToDouble(Console.ReadLine());
+            //Console.Write("Enter Value Of Dist2 : ");
+            //double Dist2 = Convert.ToDouble(Console.ReadLine());
+
+            //Distance d1 = new Distance(Dist1, Dist2);
+            //Console.WriteLine($"Sum of {Dist1} and {Dist2} is {d1.SumOfDistance()}");
+
+            //Program-9
+            //Table f1 = new Table();
+
+            //f1.GetData();
+            //f1.DetailsData();
+
+            //Program-10
         }
     }
 }
