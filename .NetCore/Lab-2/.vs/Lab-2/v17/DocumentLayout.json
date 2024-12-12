@@ -7,15 +7,15 @@
       "RelativeMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|c:\\users\\parma\\desktop\\sem-4\\.netcore\\lab-2\\furniture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\furniture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|solutionrelative:furniture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|c:\\users\\parma\\desktop\\sem-4\\.netcore\\lab-2\\distance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\distance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|solutionrelative:distance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|c:\\users\\parma\\desktop\\sem-4\\.netcore\\lab-2\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|solutionrelative:salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -52,8 +52,7 @@
               "RelativeToolTip": "Furniture.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAwBUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T13:03:30.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T13:03:30.367Z"
             },
             {
               "$type": "Document",
@@ -65,8 +64,7 @@
               "RelativeToolTip": "Distance.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAqwBMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T12:55:03.348Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T12:55:03.348Z"
             },
             {
               "$type": "Document",
@@ -78,8 +76,7 @@
               "RelativeToolTip": "Salary.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwBcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T12:42:15.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T12:42:15.064Z"
             }
           ]
         }

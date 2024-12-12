@@ -95,10 +95,10 @@ namespace Lab_3
             //String Y = c1.Change(x);
 
             //Console.WriteLine(Y);
-            
+
 
             //Program-7
-                
+
             //Shape a1 = new Shape();
 
             //double x = a1.AreaOfCircle(3);
@@ -109,6 +109,22 @@ namespace Lab_3
             //Console.WriteLine("Area of Sqaure is : " + y);
             //Console.WriteLine("Area of Triangle is : " + z);
 
+            //Program-8
+            Console.Write("Enter A Number : ");
+            int n = Convert.ToInt32(Console.ReadLine());
+
+            try
+            {
+                if (n % 2 != 0)
+                {
+                    Console.WriteLine("Nuber is Odd");
+                }
+                
+            }
+            catch (Exception ex)
+            {
+                    Console.WriteLine("Number is Not Even " + ex.Message);
+            }
         }
     }
 }
