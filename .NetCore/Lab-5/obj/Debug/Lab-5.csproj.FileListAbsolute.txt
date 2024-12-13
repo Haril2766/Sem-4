@@ -1,0 +1,7 @@
+C:\Users\parma\Desktop\Sem-4\.NetCore\Lab-5\bin\Debug\Lab-5.exe.config
+C:\Users\parma\Desktop\Sem-4\.NetCore\Lab-5\bin\Debug\Lab-5.exe
+C:\Users\parma\Desktop\Sem-4\.NetCore\Lab-5\bin\Debug\Lab-5.pdb
+C:\Users\parma\Desktop\Sem-4\.NetCore\Lab-5\obj\Debug\Lab-5.csproj.AssemblyReference.cache
+C:\Users\parma\Desktop\Sem-4\.NetCore\Lab-5\obj\Debug\Lab-5.csproj.CoreCompileInputs.cache
+C:\Users\parma\Desktop\Sem-4\.NetCore\Lab-5\obj\Debug\Lab-5.exe
+C:\Users\parma\Desktop\Sem-4\.NetCore\Lab-5\obj\Debug\Lab-5.pdb
