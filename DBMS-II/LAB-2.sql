@@ -88,7 +88,8 @@ EXEC PR_PERSON_INSERT 'Neha','Trivedi',18000,'2014-02-20',3,15
 
 -- PROCEDURE FOR UPDATE INTO DEPARTMENT
 
-CREATE OR ALTER PROCEDURE PR_UPDATE_DEPT
+--1 Department, Designation & Person Table’s INSERT, UPDATE & DELETE Procedures.
+CREATE OR ALTER PROCEDURE PR_PROCEDURE_1
 	@DEPTID INT,
 	@DEPTNAME VARCHAR(25)
 AS
@@ -100,7 +101,8 @@ END
 
 -- PROCEDURE FOR UPDATE INTO DESIGNATION
 
-CREATE OR ALTER PROCEDURE PR_UPDATE_DESIG
+
+CREATE OR ALTER PROCEDURE PR_PROCEDURE_2
 	@DESIGID INT,
 	@DESIGNAME VARCHAR(25)
 AS
@@ -114,7 +116,7 @@ END
 
 -- PROCEDURE FOR UPDATE INTO Person
 
-CREATE OR ALTER PROCEDURE PR_UPDATE_DESIG
+CREATE OR ALTER PROCEDURE PR_PROCEDURE_3
 	@PERSONID int,
 	@FNAME VARCHAR(25),
 	@LNAME VARCHAR(25),
@@ -131,7 +133,7 @@ BEGIN
 END
 
 -- PROCEDURE FOR DELETE FROM DEPARTMENT
-CREATE OR ALTER PROCEDURE PR_DELETE_DEPT
+CREATE OR ALTER PROCEDURE PR_PROCEDURE_4
 	@DEPTID INT
 AS
 BEGIN
@@ -139,9 +141,8 @@ BEGIN
 	WHERE DepartmentID = @DEPTID
 END
 
-
 -- PROCEDURE FOR DELETE FROM DESIGNATION
-CREATE OR ALTER PROCEDURE PR_DELETE_DESIG
+CREATE OR ALTER PROCEDURE PR_PROCEDURE_5
 	@DEPTID INT
 AS
 BEGIN
@@ -150,7 +151,7 @@ BEGIN
 END
 
 -- PROCEDURE FOR DELETE FROM PERSON
-CREATE OR ALTER PROCEDURE PR_DELETE_PERSON
+CREATE OR ALTER PROCEDURE PR_PROCEDURE_6
 	@DEPTID INT
 AS
 BEGIN
@@ -158,11 +159,11 @@ BEGIN
 	WHERE PersonID = @DEPTID
 END
 
---2
+--2 Department, Designation & Person Table’s SELECTBYPRIMARYKEY
 
 -- PROCEDURE FOR SELCT BY PRIMERY KEY FROM DEPARTMENT
 
-CREATE OR ALTER PROCEDURE PR_SELECTBYPRIMARYKEY_DEPT
+CREATE OR ALTER PROCEDURE PR_PROCEDURE_7
 	@DEPTID INT
 AS
 BEGIN
@@ -173,7 +174,7 @@ END
 
 -- PROCEDURE FOR SELCT BY PRIMERY KEY FROM DESIGNATION
 
-CREATE OR ALTER PROCEDURE PR_SELECTBYPRIMARYKEY_DESIG
+CREATE OR ALTER PROCEDURE PR_PROCEDURE_8
 	@DEPTID INT
 AS
 BEGIN
@@ -184,7 +185,7 @@ END
 
 -- PROCEDURE FOR SELCT BY PRIMERY KEY FROM DESIGNATION
 
-CREATE OR ALTER PROCEDURE PR_SELECTBYPRIMARYKEY_PERSON
+CREATE OR ALTER PROCEDURE PR_PROCEDURE_9
 	@DEPTID INT
 AS
 BEGIN
@@ -194,8 +195,9 @@ END
 --EXEC PR_SELECTBYPRIMARYKEY_PERSON 101
 
 
---3
-CREATE OR ALTER PROCEDURE PR_JOIN_FOREIGNKEY
+--3 Department, Designation & Person Table’s (If foreign key is available then do write join and take 
+--columns on select list)
+CREATE OR ALTER PROCEDURE PR_PROCEDURE_10
 	AS 
 	BEGIN
 			SELECT * FROM PERSON
@@ -206,13 +208,117 @@ CREATE OR ALTER PROCEDURE PR_JOIN_FOREIGNKEY
 	END   
 --exec PR_JOIN_FOREIGNKEY
 
---4
-CREATE OR ALTER PROCEDURE PR_TOPTHREE
+--4 Create a Procedure that shows details of the first 3 persons.
+CREATE OR ALTER PROCEDURE PR_PROCEDURE_11
 AS
 BEGIN
 		SELECT TOP 3 * FROM Person
 END
 --EXEC PR_TOPTHREE
+
+---------------PART - B---------------
+
+--5 Create a Procedure that takes the department name as input and returns a table with all workers 
+--working in that department.
+CREATE OR ALTER PROCEDURE PR_PROCEDURE_12
+@DNAME VARCHAR(100)
+AS
+BEGIN
+	SELECT Person.FirstName, Person.LastName 
+	FROM Person
+	JOIN Department
+	ON Person.DepartmentID = Department.DepartmentID
+	WHERE Department.DepartmentName = @DNAME
+END
+
+--EXEC PR_PROCEDURE_12 'IT'
+
+--6 Create Procedure that takes department name & designation name as input and returns a table with 
+--  worker’s first name, salary, joining date & department name.
+CREATE OR ALTER PROCEDURE PR_PROCEDURE_13
+@DNAME VARCHAR(100),
+@DESIGNATION VARCHAR(100)
+AS
+BEGIN 
+	SELECT Person.FirstName , Person.Salary , Person.JoiningDate, Department.DepartmentName
+	FROM Person
+	JOIN Department
+	ON Person.DepartmentID = Department.DepartmentID
+	JOIN Designation
+	ON Person.DesignationID = Designation.DesignationID
+	WHERE (Designation.DesignationName = @DESIGNATION) 
+		  AND
+		  (Department.DepartmentName = @DNAME)
+END
+--EXEC PR_PROCEDURE_13 'IT','JOBBER'
+
+--7. Create a Procedure that takes the first name as an input parameter and display all the details of the 
+--worker with their department & designation name.
+CREATE OR ALTER PROCEDURE PR_PROCEDURE_14
+	@FNAME VARCHAR(100)
+AS
+BEGIN
+	SELECT * 
+	FROM Person
+	JOIN Department
+	ON Person.DepartmentID = Department.DepartmentID
+	JOIN Designation
+	ON Person.DesignationID = Designation.DesignationID
+	WHERE Person.FirstName = @FNAME
+END	
+
+--EXEC PR_PROCEDURE_14 'RAHUL'
+
+--8. Create Procedure which displays department wise maximum, minimum & total salaries.
+CREATE OR ALTER PROCEDURE PR_PROCEDURE_15
+AS
+BEGIN
+	SELECT Department.DepartmentName, MAX(Person.Salary),MIN(Person.Salary), SUM(Person.Salary)
+	FROM Person
+	JOIN Department
+	ON Person.DepartmentID = Department.DepartmentID
+	GROUP BY Department.DepartmentName
+END
+
+EXEC PR_PROCEDURE_15
+
+--9. Create Procedure which displays designation wise average & total salaries.CREATE OR ALTER PROCEDURE PR_PROCEDURE_16ASBEGIN	SELECT Designation.DesignationName, AVG(Person.Salary), SUM(Person.Salary)	FROM Person	JOIN Designation
+	ON Person.DesignationID = Designation.DesignationID	GROUP BY Designation.DesignationNameEND--EXEC PR_PROCEDURE_16---------------PART - B---------------
+
+--10. Create Procedure that Accepts Department Name and Returns Person Count.
+CREATE OR ALTER PROCEDURE PR_PROCEDURE_17	@DNAME VARCHAR(100)ASBEGIN
+	SELECT @DNAME, COUNT(PERSON.PersonID) 
+	FROM Person
+	JOIN Department
+	ON Person.DepartmentID = Department.DepartmentID
+	WHERE Department.DepartmentName = @DNAME
+	GROUP BY Department.DepartmentName
+END	
+--EXEC PR_PROCEDURE_17 'IT'
+
+--11. Create a procedure that takes a salary value as input and returns all workers with a salary greater than 
+--input salary value along with their department and designation details.
+CREATE OR ALTER PROCEDURE PR_PROCEDURE_18	@SAL DECIMAL(8,2)ASBEGIN 	SELECT * 	FROM Person	JOIN Department
+	ON Person.DepartmentID = Department.DepartmentID
+	JOIN Designation
+	ON Person.DesignationID = Designation.DesignationID	WHERE Salary > @SALEND
+--EXEC PR_PROCEDURE_18 19000
+
+--12. Create a procedure to find the department(s) with the highest total salary among all departments.CREATE OR ALTER PROCEDURE PR_PROCEDURE_19	@DNAME VARCHAR(100)ASBEGIN
+	SELECT @DNAME , MAX(Person.Salary)
+	FROM Person
+	JOIN Department
+	ON Person.DepartmentID = Department.DepartmentID
+	WHERE Department.DepartmentName = @DNAME
+END
+--EXEC PR_PROCEDURE_19 'IT'
+
+--13. Create a procedure that takes a designation name as input and returns a list of all workers under that 
+      --designation who joined within the last 10 years, along with their department.CREATE OR ALTER PROCEDURE PR_PROCEDURE_20@DESIGNAME VARCHAR(100)ASBEGIN	SELECT @DESIGNAME, person.FirstName , Department.DepartmentName	FROM Person
+	JOIN Department
+	ON Person.DepartmentID = Department.DepartmentID
+	JOIN Designation
+	ON Person.DesignationID = Designation.DesignationID	WHERE Designation.DesignationName = @DESIGNAME		  AND		  Person.JoiningDate > DATEADD(YEAR, -10, GETDATE());END--EXEC PR_PROCEDURE_20 'JOBBER'
 
 
 
