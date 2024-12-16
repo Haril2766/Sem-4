@@ -14,28 +14,28 @@ namespace Lab_5
         static void Main(string[] args)
         {
             //Program - 1
-            //ArrayList StudentName = new ArrayList();
+            ArrayList StudentName = new ArrayList();
 
-            //a. Add() - To Add new student in list
-            //StudentName.Add("1 : Haril");
-            //StudentName.Add("2 : xyz");
-            //StudentName.Add("3 : abc");
-            //StudentName.Add("4 : def");
+            //a.Add() - To Add new student in list
+            StudentName.Add("1 : Haril");
+            StudentName.Add(2);
+            StudentName.Add("3 : abc");
+            StudentName.Add("4 : def");
 
-            //b. Remove() - To Remove Student with specified index
+            //b.Remove() - To Remove Student with specified index
             //StudentName.Remove(StudentName[2]);
 
-            //c. RemoveRange() - To Remove student with specified range.
-            //StudentName.RemoveRange(1,3);
+            //c.RemoveRange() - To Remove student with specified range.
+            //StudentName.RemoveRange(1, 3);
 
-            //d. Clear() - To clear all the student from the list
+            //d.Clear() - To clear all the student from the list
             //StudentName.Clear();
 
             //For see OUTPUT
-            //for (int i = 0; i < StudentName.Count; i++)
-            //{
-            //    Console.WriteLine(StudentName[i]);
-            //}
+            for (int i = 0; i < StudentName.Count; i++)
+            {
+                Console.WriteLine(StudentName[i]);
+            }
 
 
             //Program-2 
@@ -114,7 +114,7 @@ namespace Lab_5
             //    Console.WriteLine(x);
             //}
 
-               
+
             //Program-5
             //Dictionary<int,string> d1 = new Dictionary<int,string>();
 
@@ -138,7 +138,7 @@ namespace Lab_5
             //For Show OUTPUT
             //foreach (var item in d1)
             //{
-                //Console.WriteLine(item);
+            //Console.WriteLine(item);
             //}
 
             //Program-6

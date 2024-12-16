@@ -18,7 +18,7 @@ namespace Lab_1
 
             //Here writeline is use for print and readline use for take input from user
 
-            //Console.WriteLine(" Enter Your Name : ");
+            //Console.Write(" Enter Your Name : ");
             //Console.ReadLine();
             //Console.WriteLine("------------------------");
             //Console.WriteLine(" Enter Your Address : ");
@@ -53,7 +53,7 @@ namespace Lab_1
             //Console.Write(" Enter Your country : ");
             //string country = Console.ReadLine();
 
-            //Console.WriteLine("Hello " +name+ " from country " + country);
+            //Console.WriteLine($"Hello {name} from country {country}");
 
             //program-4
             //4. Write a program to calculate the size of the area in square-feet based on
