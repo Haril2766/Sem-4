@@ -24,8 +24,6 @@ namespace Lab_3
                     arr[i] = char.ToLower(arr[i]);  
                 }
             } 
-
-
             return new string(arr);
         }
 

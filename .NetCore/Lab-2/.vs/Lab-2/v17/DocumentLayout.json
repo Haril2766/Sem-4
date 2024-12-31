@@ -3,11 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|c:\\users\\parma\\desktop\\sem-4\\.netcore\\lab-2\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|solutionrelative:employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|c:\\users\\parma\\desktop\\sem-4\\.netcore\\lab-2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -21,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|solutionrelative:salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|c:\\users\\parma\\desktop\\sem-4\\.netcore\\lab-2\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A517B91-0265-430E-A5CA-2F8217CCB3BA}|Lab-2.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAAAGwAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAAAGkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T04:43:07.202Z",
               "IsPinned": true,
@@ -48,52 +48,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\Employee.cs",
-              "RelativeDocumentMoniker": "Employee.cs",
-              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\Employee.cs*",
-              "RelativeToolTip": "Employee.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\Student.cs",
+              "RelativeDocumentMoniker": "Student.cs",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\Student.cs",
+              "RelativeToolTip": "Student.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T04:32:11.605Z",
+              "WhenOpened": "2024-12-22T12:48:09.484Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Furniture.cs",
               "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\Furniture.cs",
               "RelativeDocumentMoniker": "Furniture.cs",
               "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\Furniture.cs",
               "RelativeToolTip": "Furniture.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAwBUAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwBUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T13:03:30.367Z"
+              "WhenOpened": "2024-12-11T13:03:30.367Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Distance.cs",
               "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\Distance.cs",
               "RelativeDocumentMoniker": "Distance.cs",
               "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\Distance.cs",
               "RelativeToolTip": "Distance.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBMAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T12:55:03.348Z"
+              "WhenOpened": "2024-12-11T12:55:03.348Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Salary.cs",
               "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\Salary.cs",
               "RelativeDocumentMoniker": "Salary.cs",
               "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Lab-2\\Salary.cs",
               "RelativeToolTip": "Salary.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T12:42:15.064Z"
+              "WhenOpened": "2024-12-11T12:42:15.064Z",
+              "EditorCaption": ""
             }
           ]
         }

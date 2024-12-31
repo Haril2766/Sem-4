@@ -1,0 +1,7 @@
+C:\Users\parma\Desktop\Sem-4\.NetCore\Evaluation\EvaluationLab1to5\bin\Debug\EvaluationLab1to5.exe.config
+C:\Users\parma\Desktop\Sem-4\.NetCore\Evaluation\EvaluationLab1to5\bin\Debug\EvaluationLab1to5.exe
+C:\Users\parma\Desktop\Sem-4\.NetCore\Evaluation\EvaluationLab1to5\bin\Debug\EvaluationLab1to5.pdb
+C:\Users\parma\Desktop\Sem-4\.NetCore\Evaluation\EvaluationLab1to5\obj\Debug\EvaluationLab1to5.csproj.AssemblyReference.cache
+C:\Users\parma\Desktop\Sem-4\.NetCore\Evaluation\EvaluationLab1to5\obj\Debug\EvaluationLab1to5.csproj.CoreCompileInputs.cache
+C:\Users\parma\Desktop\Sem-4\.NetCore\Evaluation\EvaluationLab1to5\obj\Debug\EvaluationLab1to5.exe
+C:\Users\parma\Desktop\Sem-4\.NetCore\Evaluation\EvaluationLab1to5\obj\Debug\EvaluationLab1to5.pdb

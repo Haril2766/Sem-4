@@ -8,8 +8,6 @@ namespace Lab_3
 {
     interface Results
     {
-
-
         int add(int a, int b);
         int sub(int a, int b);
 
@@ -25,6 +23,5 @@ namespace Lab_3
                 return (a - b);
             }
         } 
-
     }
 

@@ -110,21 +110,21 @@ namespace Lab_3
             //Console.WriteLine("Area of Triangle is : " + z);
 
             //Program-8
-            Console.Write("Enter A Number : ");
-            int n = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Enter A Number : ");
+            //int n = Convert.ToInt32(Console.ReadLine());
 
-            try
-            {
-                if (n % 2 != 0)
-                {
-                    Console.WriteLine("Nuber is Odd");
-                }
-                
-            }
-            catch (Exception ex)
-            {
-                    Console.WriteLine("Number is Not Even " + ex.Message);
-            }
+            //try
+            //{
+            //    if (n % 2 != 0)
+            //    {
+            //        Console.WriteLine("Nuber is Odd");
+            //    }
+
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine("Number is Not Even " + ex.Message);
+            //}
         }
     }
 }

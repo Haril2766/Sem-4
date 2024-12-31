@@ -99,8 +99,8 @@ namespace Lab_2
             //Console.WriteLine($"Sum of {Dist1} and {Dist2} is {d1.SumOfDistance()}");
 
             //Program-9
+            //Table class Derived from Furniture class
             //Table f1 = new Table();
-
             //f1.GetData();
             //f1.DetailsData();
 
