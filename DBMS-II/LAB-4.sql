@@ -1,4 +1,5 @@
 --Note: for Table valued function use tables of Lab-2
+
 ----------------------------------Part – A----------------------------------
 
 --1. Write a function to print "hello world".
@@ -114,8 +115,7 @@ BEGIN
 		BEGIN 
 			IF @I%2 = 0
 				BEGIN
-					SET @ANS = @ANS + CAST(@I AS VARCHAR) + ' 
-					';
+					SET @ANS = @ANS + @I;
 					SET @I = @I +2
 				END
 			ELSE
@@ -123,8 +123,26 @@ BEGIN
 		END
 	RETURN @ANS
 END
-
-SELECT dbo.FN_9THFUNCTION()
+--SELECT dbo.FN_9THFUNCTION()
 
 --10. Write a function that checks if a given string is a palindrome
+CREATE OR ALTER FUNCTION FN_10THFUNCTION(@STR VARCHAR(50))
+RETURNS VARCHAR(50) 
+AS
+BEGIN
+	DECLARE @ANS VARCHAR(50)
+	DECLARE @TEMP VARCHAR(50)
+	SET @TEMP = REVERSE(@STR)
 
+	IF @STR = @TEMP
+		SET @ANS = 'STRING IS PALINDROM'
+	ELSE
+		SET @ANS = 'STRING IS NOT PALINDROM'
+	
+	RETURN @ANS
+END
+--SELECT dbo.FN_10THFUNCTION('LIRIL')
+--SELECT dbo.FN_10THFUNCTION('HARIL')
+
+
+----------------------------------Part – C----------------------------------
