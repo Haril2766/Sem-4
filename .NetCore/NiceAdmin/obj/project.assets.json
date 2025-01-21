@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\NiceAdmin\\Quiz-Management\\Quiz-Management.csproj",
-      "projectName": "Quiz-Management",
-      "projectPath": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\NiceAdmin\\Quiz-Management\\Quiz-Management.csproj",
+      "projectUniqueName": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\NiceAdmin\\NiceAdmin.csproj",
+      "projectName": "NiceAdmin",
+      "projectPath": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\NiceAdmin\\NiceAdmin.csproj",
       "packagesPath": "C:\\Users\\parma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\NiceAdmin\\Quiz-Management\\obj\\",
+      "outputPath": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\NiceAdmin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

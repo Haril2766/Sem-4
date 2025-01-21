@@ -1,4 +1,4 @@
-namespace Quiz_Management.Models
+namespace NiceAdmin.Models
 {
     public class ErrorViewModel
     {

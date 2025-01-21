@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Quiz_Management.Models;
+using NiceAdmin.Models;
 
-namespace Quiz_Management.Controllers
+namespace NiceAdmin.Controllers
 {
     public class HomeController : Controller
     {
