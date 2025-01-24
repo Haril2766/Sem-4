@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Kards-Master/1.0.0": {
+        "runtime": {
+          "Kards-Master.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Kards-Master/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

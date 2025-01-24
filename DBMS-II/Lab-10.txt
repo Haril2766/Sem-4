@@ -1,0 +1,48 @@
+1. db.Student.updateOne({name : "John"},{$set : {age : 31}})
+2. db.Student.updateMany({ city : "New York"},{$set : { city : "New Jersey" }})
+3. db.Student.updateMany({age : {$gt : 35}},{$set : {isActive : false}})
+4. db.Students.updateMany({}, { $inc: { age: 1 } });
+5. db.Students.updateOne({ name: "Eva" }, { $set: { city: "Cambridge" } });
+6. db.Students.updateOne({ name: "Sophia" }, { $set: { isActive: false } });
+7. db.Students.updateMany({ age: { $lt: 30 } }, { $set: { city: "San Diego" } });
+8. db.Students.updateMany({}, { $rename: { age: "years" } });
+9. db.Students.updateOne({ name: "Nick" }, { $set: { isActive: true } });
+10. db.Students.updateMany({}, { $set: { country: "USA" } });
+11. db.Students.updateOne({ name: "David" }, { $set: { city: "Orlando" } });
+12. db.Students.updateOne({ name: "Tom" }, { $unset: { city: "" } });
+13. db.Students.updateMany({}, [{ $set: { age: { $multiply: ["$age", 2] } } }]);
+14. db.Students.updateMany({ age: { $gt: 30 } }, { $set: { premiumUser: true } });
+15. db.Students.updateOne({ name: "Jane" }, { $set: { isActive: true } });
+16. db.Students.updateOne({ name: "Lucy" }, { $set: { isActive: false } });
+17. db.Students.deleteOne({ name: "Nick" });
+18. db.Students.deleteMany({ isActive: false });
+19. db.Students.deleteMany({ city: "New York" });
+20. db.Students.deleteMany({ age: { $gt: 35 } });
+21. db.Students.deleteOne({ name: "Olivia" });
+22. db.Students.deleteMany({ age: { $lt: 25 } });
+23. db.Students.deleteOne({ isActive: true });
+24. db.Students.deleteMany({ city: "Los Angeles" });
+25. db.Students.deleteMany({ city: { $exists: false } });
+26. db.Students.updateMany({}, { $rename: { city: "location" } });
+27. db.Students.updateOne({ name: "John" }, { $rename: { name: "FullName" } });
+28. db.Students.updateMany({}, { $rename: { isActive: "status" } });
+29. db.Students.updateMany({ city: "San Francisco" }, { $rename: { age: "yearsOld" } });
+30.  db.CreateCollection("Employee", {
+					capped : true,
+					size: 5120,
+					max:100,
+					validator :{
+							$jsonSchema :{
+									bsonType: "object",
+									required : [""Ecode","Ename"],
+									properties :{
+											Ecode: {bsonType : "int"},
+											Ename : {bsonType : "String"},
+											Age : {bsonType : "int"},
+											City : {bsonType : "String"}
+											}
+									}
+							}
+					}
+			)	
+
