@@ -1,0 +1,8 @@
+C:\Users\parma\Desktop\Sem-4\.NetCore\UpConstruction\obj\Debug\net8.0\UpConstruction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\parma\Desktop\Sem-4\.NetCore\UpConstruction\obj\Debug\net8.0\UpConstruction.AssemblyInfoInputs.cache
+C:\Users\parma\Desktop\Sem-4\.NetCore\UpConstruction\obj\Debug\net8.0\UpConstruction.AssemblyInfo.cs
+C:\Users\parma\Desktop\Sem-4\.NetCore\UpConstruction\obj\Debug\net8.0\UpConstruction.csproj.CoreCompileInputs.cache
+C:\Users\parma\Desktop\Sem-4\.NetCore\UpConstruction\obj\Debug\net8.0\UpConstruction.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\parma\Desktop\Sem-4\.NetCore\UpConstruction\obj\Debug\net8.0\UpConstruction.RazorAssemblyInfo.cache
+C:\Users\parma\Desktop\Sem-4\.NetCore\UpConstruction\obj\Debug\net8.0\UpConstruction.RazorAssemblyInfo.cs
+C:\Users\parma\Desktop\Sem-4\.NetCore\UpConstruction\obj\Debug\net8.0\UpConstruction.sourcelink.json
