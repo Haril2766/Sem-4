@@ -38,7 +38,7 @@
         <div class="d-flex align-items-center justify-content-between">
             <a href="index.html" class="logo d-flex align-items-center">
                 <img src="~/img/logo.png" alt="">
-                <span class="d-none d-lg-block">NiceAdmin</span>
+                <span class="d-none d-lg-block">QuizManagement</span>
             </a>
             <i class="bi bi-list toggle-sidebar-btn"></i>
         </div><!-- End Logo -->
@@ -280,13 +280,13 @@
                 </a>
                 <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
                     <li>
-                        <a asp-controller="Quiz" asp-action="QuizeAdd">
-                            <i class="bi bi-circle"></i><span>Quiz Add/Edit</span>
+                        <a asp-controller="Quiz" asp-action="Add">
+                            <i class="bi bi-circle"></i><span>Add/Edit</span>
                         </a>
                     </li>
                     <li>
-                        <a asp-controller="Quiz" asp-action="QuizList">
-                            <i class="bi bi-circle"></i><span>Quiz List</span>
+                        <a asp-controller="Quiz" asp-action="List">
+                            <i class="bi bi-circle"></i><span>List of Quiz</span>
                         </a>
                     </li>
 
@@ -299,13 +299,13 @@
                 </a>
                 <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
                     <li>
-                        <a asp-controller="Question" asp-action="QuestionAdd">
-                            <i class="bi bi-circle"></i><span>Question Add/Edit</span>
+                        <a asp-controller="Question" asp-action="Add">
+                            <i class="bi bi-circle"></i><span>Add/Edit</span>
                         </a>
                     </li>
                     <li>
-                        <a asp-controller="Question" asp-action="QuestionList">
-                            <i class="bi bi-circle"></i><span>Question List</span>
+                        <a asp-controller="Question" asp-action="List">
+                            <i class="bi bi-circle"></i><span>List of Questions</span>
                         </a>
                     </li>
                 </ul>
@@ -327,20 +327,34 @@
             </li>
             <!-- End User Nav -->
                 
+            @* <li class="nav-item"> *@
+            @*     <a class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#"> *@
+            @*         <i class="bi bi-bar-chart"></i><span>QuizWiseQuestion</span><i class="bi bi-chevron-down ms-auto"></i> *@
+            @*     </a> *@
+            @*     <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav"> *@
+            @*         <li> *@
+            @*             <a href="charts-chartjs.html"> *@
+            @*                 <i class="bi bi-circle"></i><span>QuizWiseQuestion Add/Edit</span> *@
+            @*             </a> *@
+            @*         </li> *@
+            @*     </ul> *@
+            @* </li><!-- End User Nav --> *@
+
             <li class="nav-item">
-                <a class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
-                    <i class="bi bi-bar-chart"></i><span>QuizWiseQuestion</span><i class="bi bi-chevron-down ms-auto"></i>
+                <a class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
+                    <i class="bi bi-gem"></i><span>QuizWiseQuestion</span><i class="bi bi-chevron-down ms-auto"></i>
                 </a>
-                <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
                     <li>
-                        <a href="charts-chartjs.html">
+                        <a href="icons-bootstrap.html">
                             <i class="bi bi-circle"></i><span>QuizWiseQuestion Add/Edit</span>
                         </a>
                     </li>
                 </ul>
-            </li><!-- End User Nav -->
+            </li><!-- End Icons Nav -->
+
             <li class="nav-item">
-                <a class="nav-link collapsed" asp-controller="NewLogin" asp-action="NewUserLogin">
+                <a class="nav-link collapsed" asp-controller="Registeration" asp-action="USerRegister">
                     <i class="bi bi-card-list"></i>
                     <span>Registeration</span>
                 </a>

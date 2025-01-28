@@ -4,11 +4,11 @@ namespace QuizeManagement.Controllers
 {
     public class QuestionController : Controller
     {
-        public IActionResult QuestionAdd()
+        public IActionResult Add()
         {
             return View();
         }
-        public IActionResult QuestionList()
+        public IActionResult List()
         {
             return View();
         }
