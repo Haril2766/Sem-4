@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <h2>Create Product</h2>
+        <form action="/save-product" method="post">
+            <div class="mb-3">
+                <label for="Productname" class="form-label">Product Name</label>
+                <input type="text" name="Productname" id="Productname" class="form-control" required />
+            </div>
+
+            <div class="mb-3">
+                <label for="Price" class="form-label">Price</label>
+                <input type="number" name="Price" id="Price" class="form-control" step="0.01" required />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Category</label><br />
+                <div class="form-check form-check-inline">
+                    <input type="checkbox" name="Category" value="Beauty" id="CategoryBeauty" class="form-check-input" />
+                    <label for="CategoryBeauty" class="form-check-label">Beauty</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="checkbox" name="Category" value="Grocery" id="CategoryGrocery" class="form-check-input" />
+                    <label for="CategoryGrocery" class="form-check-label">Grocery</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="checkbox" name="Category" value="Electronics" id="CategoryElectronics" class="form-check-input" />
+                    <label for="CategoryElectronics" class="form-check-label">Electronics</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="checkbox" name="Category" value="Clothing" id="CategoryClothing" class="form-check-input" />
+                    <label for="CategoryClothing" class="form-check-label">Clothing</label>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="ProductDescription" class="form-label">Product Description</label>
+                <textarea name="ProductDescription" id="ProductDescription" class="form-control" rows="4" required></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label for="ProductCompny" class="form-label">Product Company</label>
+                <select name="ProductCompny" id="ProductCompny" class="form-select" required>
+                    <option value="">Select a Company</option>
+                    <option value="Amul">Amul</option>
+                    <option value="Dell">Dell</option>
+                    <option value="Vivo">Vivo</option>
+                    <option value="Samsung">Samsung</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="ProductID" class="form-label">Product ID</label>
+                <input type="number" name="ProductID" id="ProductID" class="form-control" required />
+            </div>
+
+            <div class="mb-3">
+                <label for="Rating" class="form-label">Rating (1 to 5)</label>
+                <input type="number" name="Rating" id="Rating" class="form-control" min="1" max="5" required />
+            </div>
+
+            <button type="submit" class="btn btn-primary">Save</button>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
