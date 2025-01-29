@@ -32,6 +32,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW5Vc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/parma/Desktop/Sem-4/.NetCore/QUIZ/QuizeManagement/Views/QuestionLevel/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25MZXZlbFxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/parma/Desktop/Sem-4/.NetCore/QUIZ/QuizeManagement/Views/QuestionLevel/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25MZXZlbFxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/parma/Desktop/Sem-4/.NetCore/QUIZ/QuizeManagement/Views/Question/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25cQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

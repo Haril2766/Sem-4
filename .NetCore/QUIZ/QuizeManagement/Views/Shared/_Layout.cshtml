@@ -317,8 +317,13 @@
                 </a>
                 <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
                     <li>
-                        <a href="charts-chartjs.html">
-                            <i class="bi bi-circle"></i><span>Question Level Add/Edit</span>
+                        <a asp-controller="QuestionLevel" asp-action="Add">
+                            <i class="bi bi-circle"></i><span>Add/Edit</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a asp-controller="QuestionLevel" asp-action="List">
+                            <i class="bi bi-circle"></i><span>List of QuestionsLevel</span>
                         </a>
                     </li>
                   

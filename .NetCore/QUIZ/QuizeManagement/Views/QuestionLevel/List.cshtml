@@ -1,0 +1,90 @@
+﻿<main id="main" class="main">
+    <div class="container">
+        <!-- Search Section -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="card-title">Set Question Levels</h5>
+                <form class="row g-3">
+                    <div class="col-md-4">
+                        <label for="quizName" class="form-label">Question Id </label>
+                        <input type="number" class="form-control" id="quizName" placeholder="Enter Question Id">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="quizName" class="form-label">User ID </label>
+                        <input type="number" class="form-control" id="quizName" placeholder="Enter User Id">
+                    </div>
+                    <div class="col-md-4 d-flex align-items-end">   
+                        <button type="button" class="btn btn-primary btn-custom mx-1">Set</button>
+                        <button type="reset" class="btn btn-secondary btn-custom mx-1">Reset</button>
+                        @* <a class="btn btn-success mx-1" asp-controller="Quiz" asp-action="Add"> Add New Quiz</a> *@
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Quiz List Section -->
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5>Question List</h5>
+                <a class="btn btn-success" id="addQuestionBtn" asp-controller="Quiz" asp-action="Add">Add Quiz</a>
+            </div>
+            <div class="card-body" float="s">
+                <div class="row">
+                    <div class="col-lg-12">
+
+                        <div class="card">
+
+                            <!-- Table with stripped rows -->
+                            <table class="table datatable">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>ID</th>
+                                        <th>Level</th>
+                                        <th>User ID</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>11</td>
+                                        <td>Hard</td>
+                                        <td>101</td>
+                                        <td>
+                                            <button class="btn btn-primary btn-sm">Edit</button>
+                                            <button class="btn btn-danger btn-sm">Delete</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>12</td>
+                                        <td>Medium</td>
+                                        <td>101</td>
+                                        <td>
+                                            <button class="btn btn-primary btn-sm">Edit</button>
+                                            <button class="btn btn-danger btn-sm">Delete</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>13</td>
+                                        <td>Easy</td>
+                                        <td>101</td>
+                                        <td>
+                                            <button class="btn btn-primary btn-sm">Edit</button>
+                                            <button class="btn btn-danger btn-sm">Delete</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <!-- End Table with stripped rows -->
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
