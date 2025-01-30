@@ -6,25 +6,19 @@
                 <h5>Search Questions</h5>
             </div>
             <div class="card-body">
-                <form id="searchForm">
-                    <div class="row g-3">
-                        <div class="col-md-6">
-                            <input type="text" class="form-control" id="searchText" placeholder="Enter question text">
-                        </div>
-                        <div class="col-md-3">
-                            <select class="form-select" id="searchLevel">
-                                <option value="">Select Level</option>
-                                <option value="1">Easy</option>
-                                <option value="2">Medium</option>
-                                <option value="3">Hard</option>
-                            </select>
-                        </div>
-                        <div class="col-md-3">
-                            <button type="button" class="btn btn-primary w-100" id="searchBtn">Search</button>
-                        </div>
+                <form class="row g-3">
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" placeholder="Question Text">
                     </div>
-                    <div class="mt-3">
-                        <button type="button" class="btn btn-secondary" id="resetBtn">Reset</button>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" placeholder="Correct Options">
+                    </div>
+                    <div class="col-md-4">
+                        <input type="number" class="form-control" placeholder="Question Marks">
+                    </div>
+                    <div class="text-start">
+                        <button type="submit" class="btn btn-primary">Search</button>
+                        <button type="reset" class="btn btn-secondary">Reset</button>
                     </div>
                 </form>
             </div>
@@ -43,49 +37,74 @@
                             <div class="card">
                                 
                                     <!-- Table with stripped rows -->
-                                    <table class="table datatable">
-                                        <thead>
-                                            <tr>
-                                                <th>#</th>
-                                                <th>Question Text</th>
-                                                <th>Level</th>
-                                                <th>Marks</th>
-                                                <th>Actions</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
+                            <table class="table datatable">
+
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            <b>Q</b>uestion ID
+                                        </th>
+                                        <th>Question Text</th>
+                                        <th>Option A</th>
+                                        <th>Option B</th>
+                                        <th>Option C</th>
+                                        <th>Option D</th>
+                                        <th>Correct Option</th>
+                                        <th>Question Marks</th>
+                                        <th>User Name</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
                                     <tr>
                                         <td>1</td>
-                                        <td>What is the capital of France?</td>
-                                        <td>Easy</td>
-                                        <td>5</td>
                                         <td>
-                                            <button class="btn btn-primary btn-sm">Edit</button>
-                                            <button class="btn btn-danger btn-sm">Delete</button>
+                                            ASP.NET is a ____.
+                                        </td>
+                                        <td>
+                                            Client-Side technology
+                                        </td>
+                                        <td>
+                                            Server-side technology
+                                        </td>
+                                        <td>Both</td>
+                                        <td>None</td>
+                                        <td>B</td>
+                                        <td>25</td>
+                                        <td>Karan</td>
+                                        <td>
+                                            <a href="#" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-pencil"></i></a>
+                                            <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>2</td>
-                                        <td>What is the capital of USA?</td>
-                                        <td>Hard</td>
-                                        <td>10</td>
                                         <td>
-                                            <button class="btn btn-primary btn-sm">Edit</button>
-                                            <button class="btn btn-danger btn-sm">Delete</button>
-										</td>
-									</tr>
-									<tr>
-										<td>3</td>
-                                        <td>What is the capital of India?</td>
-                                        <td>Medium</td>
-                                        <td>8</td>
+                                            What is the full form ASP?
+                                        </td>
                                         <td>
-                                            <button class="btn btn-primary btn-sm">Edit</button>
-                                            <button class="btn btn-danger btn-sm">Delete</button>
+                                            Access Server Pages
+                                        </td>
+                                        <td>
+                                            Active Service Pages
+                                        </td>
+                                        <td>
+                                            Active Server Pages
+                                        </td>
+                                        <td>
+                                            Access Service Pages
+                                        </td>
+                                        <td>C</td>
+                                        <td>20</td>
+                                        <td>Yash</td>
+                                        <td>
+                                            <a href="#" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-pencil"></i></a>
+                                            <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a>
                                         </td>
                                     </tr>
-                                        </tbody>
-                                    </table>
+                                </tbody>
+                            </table>
+
                                     <!-- End Table with stripped rows -->
 
                                 </div>

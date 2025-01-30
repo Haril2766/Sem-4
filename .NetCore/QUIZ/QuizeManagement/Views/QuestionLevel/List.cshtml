@@ -1,89 +1,95 @@
 ﻿<main id="main" class="main">
-    <div class="container">
+    <div class="container mt-5">
         <!-- Search Section -->
-        <div class="card mb-4">
+        <div class="card mb-4"> 
+            <div class="card-header">
+                <h5>Search Questions</h5>
+            </div>
             <div class="card-body">
-                <h5 class="card-title">Set Question Levels</h5>
-                <form class="row g-3">
-                    <div class="col-md-4">
-                        <label for="quizName" class="form-label">Question Id </label>
-                        <input type="number" class="form-control" id="quizName" placeholder="Enter Question Id">
+                <form id="searchForm">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id="searchText" placeholder="Enter question text">
+                        </div>
+                        <div class="col-md-3">
+                            <select class="form-select" id="searchLevel">
+                                <option value="">Select Level</option>
+                                <option value="1">Easy</option>
+                                <option value="2">Medium</option>
+                                <option value="3">Hard</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <button type="button" class="btn btn-primary w-100" id="searchBtn">Search</button>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <label for="quizName" class="form-label">User ID </label>
-                        <input type="number" class="form-control" id="quizName" placeholder="Enter User Id">
-                    </div>
-                    <div class="col-md-4 d-flex align-items-end">   
-                        <button type="button" class="btn btn-primary btn-custom mx-1">Set</button>
-                        <button type="reset" class="btn btn-secondary btn-custom mx-1">Reset</button>
-                        @* <a class="btn btn-success mx-1" asp-controller="Quiz" asp-action="Add"> Add New Quiz</a> *@
+                    <div class="mt-3">
+                        <button type="button" class="btn btn-secondary" id="resetBtn">Reset</button>
                     </div>
                 </form>
             </div>
         </div>
 
-        <!-- Quiz List Section -->
+        <!-- Question List Section -->
         <div class="card">
-            <div class="card-header d-flex justify-content-between align-items-center">
-                <h5>Question List</h5>
-                <a class="btn btn-success" id="addQuestionBtn" asp-controller="Quiz" asp-action="Add">Add Quiz</a>
-            </div>
-            <div class="card-body" float="s">
-                <div class="row">
-                    <div class="col-lg-12">
-
-                        <div class="card">
-
-                            <!-- Table with stripped rows -->
-                            <table class="table datatable">
-                                <thead>
-                                    <tr>
-                                        <th>#</th>
-                                        <th>ID</th>
-                                        <th>Level</th>
-                                        <th>User ID</th>
-                                        <th>Actions</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>11</td>
-                                        <td>Hard</td>
-                                        <td>101</td>
-                                        <td>
-                                            <button class="btn btn-primary btn-sm">Edit</button>
-                                            <button class="btn btn-danger btn-sm">Delete</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>12</td>
-                                        <td>Medium</td>
-                                        <td>101</td>
-                                        <td>
-                                            <button class="btn btn-primary btn-sm">Edit</button>
-                                            <button class="btn btn-danger btn-sm">Delete</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>13</td>
-                                        <td>Easy</td>
-                                        <td>101</td>
-                                        <td>
-                                            <button class="btn btn-primary btn-sm">Edit</button>
-                                            <button class="btn btn-danger btn-sm">Delete</button>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <!-- End Table with stripped rows -->
-
-                        </div>
-                    </div>
-
+            <div class="card-body">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                <h2 class="card-title">Question Level List</h2>
+                <div class="d-flex p-3 justify-content-end">
+                        <a asp-controller="QuestionLevel" asp-action="Add" class="btn btn-primary w-20">
+                        <i class="bi bi-plus"></i> Add Question Level
+                    </a>
                 </div>
+                </div>
+                <table class="table datatable">
+
+                    <thead>
+                        <tr>
+                            <th>QuestionLevelID</th>
+                            <th>QuestionLevel</th>
+                            <th>User ID</th>
+                            <th>Created</th>
+                            <th>Modified</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>15</td>
+                            <td>101</td>
+                            <td>2002/08/04</td>
+                            <td>2002/08/06</td>
+                            <td>
+                                <a href="#" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-pencil"></i></a>
+                                <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>25</td>
+                            <td>102</td>
+                            <td>2020/12/17</td>
+                            <td>2020/12/08</td>
+                            <td>
+                                <a href="#" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-pencil"></i></a>
+                                <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>20</td>
+                            <td>103</td>
+                            <td>2021/09/12</td>
+                            <td>2021/09/15</td>
+                            <td>
+                                <a href="#" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-pencil"></i></a>
+                                <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
             </div>
         </div>
     </div>
