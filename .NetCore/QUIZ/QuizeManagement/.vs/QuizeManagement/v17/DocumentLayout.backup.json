@@ -59,8 +59,7 @@
               "ViewState": "AgIAAGQBAAAAAAAAAAAowHMBAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-25T04:39:07.461Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "Views\\QuizWiseQuestion\\List.cshtml",
               "ViewState": "AgIAADoAAAAAAAAAAAAowFQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-30T12:24:46.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T12:24:46.571Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "Views\\Quiz\\List.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-30T12:13:49.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T12:13:49.641Z"
             },
             {
               "$type": "Document",
@@ -96,7 +93,7 @@
               "RelativeDocumentMoniker": "Views\\User\\UserList.cshtml",
               "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\QUIZ\\QuizeManagement\\Views\\User\\UserList.cshtml",
               "RelativeToolTip": "Views\\User\\UserList.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAIYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-30T12:09:54.492Z",
               "EditorCaption": ""
@@ -111,8 +108,7 @@
               "RelativeToolTip": "Controllers\\UserController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T12:08:55.877Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T12:08:55.877Z"
             },
             {
               "$type": "Document",
