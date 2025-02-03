@@ -1,4 +1,6 @@
-﻿<main>
+﻿@model QuizeManagement.Models.LoginModel
+
+<main>
     <div class="container">
 
       <section class="section register min-vh-100 d-flex flex-column align-items-center justify-content-center py-4">
@@ -7,7 +9,7 @@
             <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
 
               <div class="d-flex justify-content-center py-4">
-                <a href="index.html" class="logo d-flex align-items-center w-auto">
+                <a asp-controller="Home" asp-action="Index" class="logo d-flex align-items-center w-auto">
                   <img src="assets/img/logo.png" alt="">
                   <span class="d-none d-lg-block">Quiz Management</span>
                 </a>
@@ -26,16 +28,14 @@
 
                     <div class="col-12">
                       <label for="yourUsername" class="form-label">Username/Email/MobileNo</label>
-                      <div class="input-group has-validation">
-                        <input type="text" name="username" class="form-control" id="yourUsername" required>
-                        <div class="invalid-feedback">Please enter your username or Email or MobileNo.</div>
-                      </div>
+                        <input type="text" name="username" class="form-control" id="yourUsername" asp-for="UserName">
+                         <span asp-validation-for="UserName" class="text-danger"></span>
                     </div>
 
                     <div class="col-12">
-                      <label for="yourPassword" class="form-label">Password</label>
-                      <input type="password" name="password" class="form-control" id="yourPassword" required>
-                      <div class="invalid-feedback">Please enter your password!</div>
+                      <label for="yourPassword" class="form-label" >Password</label>
+                      <input type="password"  class="form-control" id="yourPassword" asp-for="PassWord">
+                       <span asp-validation-for="PassWord"></span>                   
                     </div>
 
                     <div class="col-12">
@@ -71,3 +71,7 @@
 
     </div>
   </main><!-- End #main -->
+
+
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
