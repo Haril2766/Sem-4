@@ -1,4 +1,4 @@
-
+`
 USE CSE_4A_ASP_DOTNET
 
 -- Creating MST_User table
@@ -600,7 +600,7 @@ BEGIN
 END
 --EXEC Dropdown_MST_QuestionLevel
 
---modelwith data anomation
+--model with data anomation
 --select all column name
 --Scroll
 --add user

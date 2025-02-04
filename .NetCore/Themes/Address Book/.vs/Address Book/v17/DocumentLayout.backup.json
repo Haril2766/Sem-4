@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\parma\\Desktop\\Address Book\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|c:\\users\\parma\\desktop\\address book\\views\\helper\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|solutionrelative:views\\helper\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|c:\\users\\parma\\desktop\\address book\\models\\helpermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|solutionrelative:models\\helpermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|c:\\users\\parma\\desktop\\address book\\views\\helper\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|solutionrelative:views\\helper\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|c:\\users\\parma\\desktop\\address book\\views\\country\\country.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|solutionrelative:views\\country\\country.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|c:\\users\\parma\\desktop\\address book\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|c:\\users\\parma\\desktop\\address book\\controllers\\helpercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,14 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|c:\\users\\parma\\desktop\\address book\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|solutionrelative:controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|c:\\users\\parma\\desktop\\address book\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|c:\\users\\parma\\desktop\\address book\\views\\country\\country.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|solutionrelative:views\\country\\country.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|c:\\users\\parma\\desktop\\address book\\controllers\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,37 +86,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HelperModel.cs",
               "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\Models\\HelperModel.cs",
               "RelativeDocumentMoniker": "Models\\HelperModel.cs",
               "ToolTip": "C:\\Users\\parma\\Desktop\\Address Book\\Models\\HelperModel.cs",
               "RelativeToolTip": "Models\\HelperModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-04T04:38:14.098Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\Views\\Helper\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Helper\\Index.cshtml",
-              "ToolTip": "C:\\Users\\parma\\Desktop\\Address Book\\Views\\Helper\\Index.cshtml*",
-              "RelativeToolTip": "Views\\Helper\\Index.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\Address Book\\Views\\Helper\\Index.cshtml",
+              "RelativeToolTip": "Views\\Helper\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-04T04:37:47.101Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "HelperController.cs",
               "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\Controllers\\HelperController.cs",
               "RelativeDocumentMoniker": "Controllers\\HelperController.cs",
@@ -129,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "City.cshtml",
               "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\Views\\City\\City.cshtml",
               "RelativeDocumentMoniker": "Views\\City\\City.cshtml",
@@ -141,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "State.cshtml",
               "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\Views\\State\\State.cshtml",
               "RelativeDocumentMoniker": "Views\\State\\State.cshtml",
@@ -153,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "CityController.cs",
               "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\Controllers\\CityController.cs",
               "RelativeDocumentMoniker": "Controllers\\CityController.cs",
@@ -177,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "StateModel.cs",
               "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\Models\\StateModel.cs",
               "RelativeDocumentMoniker": "Models\\StateModel.cs",
@@ -189,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "CountryModel.cs",
               "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\Models\\CountryModel.cs",
               "RelativeDocumentMoniker": "Models\\CountryModel.cs",
@@ -201,19 +201,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "Country.cshtml",
               "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\Views\\Country\\Country.cshtml",
               "RelativeDocumentMoniker": "Views\\Country\\Country.cshtml",
               "ToolTip": "C:\\Users\\parma\\Desktop\\Address Book\\Views\\Country\\Country.cshtml",
               "RelativeToolTip": "Views\\Country\\Country.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAswDUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-03T04:47:28.511Z"
+              "WhenOpened": "2025-02-03T04:47:28.511Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Student.cshtml",
               "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\Views\\Home\\Student.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Student.cshtml",
@@ -226,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "CityModel.cs",
               "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\Models\\CityModel.cs",
               "RelativeDocumentMoniker": "Models\\CityModel.cs",
@@ -250,15 +251,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\parma\\Desktop\\Address Book\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAB0BAAAAAAAAAAAAADABAABVAAAAAAAAAA==",
+              "ViewState": "AgIAACEBAAAAAAAAAAAgwDgBAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-27T04:41:46.637Z"
+              "WhenOpened": "2025-01-27T04:41:46.637Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
