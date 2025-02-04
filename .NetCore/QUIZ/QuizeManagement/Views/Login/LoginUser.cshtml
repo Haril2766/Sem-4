@@ -24,18 +24,19 @@
                     
                   </div>
 
-                  <form class="row g-3 needs-validation" novalidate>
+                  <form class="row g-3" novalidate>
+
+                      <div class="col-12">
+                          <label for="yourUsername" class="form-label" asp-for="UserName">Username/Email/MobileNo</label>
+                          <input type="text" class="form-control" id="yourUsername" asp-for="UserName">
+                          <span asp-validation-for="UserName" class="text-danger"></span>
+                      </div>
+
 
                     <div class="col-12">
-                      <label for="yourUsername" class="form-label">Username/Email/MobileNo</label>
-                        <input type="text" name="username" class="form-control" id="yourUsername" asp-for="UserName">
-                         <span asp-validation-for="UserName" class="text-danger"></span>
-                    </div>
-
-                    <div class="col-12">
-                      <label for="yourPassword" class="form-label" >Password</label>
+                      <label for="yourPassword" class="form-label" asp-for="PassWord">Password</label>
                       <input type="password"  class="form-control" id="yourPassword" asp-for="PassWord">
-                       <span asp-validation-for="PassWord"></span>                   
+                       <span asp-validation-for="PassWord" class="text-danger"></span>                   
                     </div>
 
                     <div class="col-12">
@@ -73,5 +74,3 @@
   </main><!-- End #main -->
 
 
-<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
-<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>

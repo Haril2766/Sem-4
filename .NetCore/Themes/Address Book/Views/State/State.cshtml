@@ -1,0 +1,59 @@
+﻿@model Address_Book.Models.StateModel
+
+<main id="main" class="main">
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Add New State </h5>
+                <form class="row g-3">
+                    <div class="col-12">
+                        <label asp-for="CountryId" for="inputId4" class="form-label">Country ID</label>
+                        <input asp-for="CountryId" type="number" class="form-control" id="inputId4">
+                        <span asp-validation-for="CountryId" class="text-danger"></span>
+
+                    </div>
+                    <div class="col-12">
+                        <label asp-for="StateId" for="inputId4" class="form-label">State ID</label>
+                        <input asp-for="StateId" type="number" class="form-control" id="inputId4">
+                        <span asp-validation-for="StateId" class="text-danger"></span>
+
+                    </div>
+                    <div class="col-12">
+                        <label asp-for="StateName" for="inputName4" class="form-label">State Name</label>
+                        <input asp-for="StateName" type="text" class="form-control" id="inputName4">
+                        <span asp-validation-for="StateName" class="text-danger"></span>
+
+                    </div>
+
+                    <div class="col-12">
+                        <label asp-for="StateCode" for="inputcode" class="form-label">State Code</label>
+                        <input asp-for="StateCode" type="number" class="form-control" id="inputcode">
+                        <span asp-validation-for="StateCode" class="text-danger"></span>
+
+                    </div>
+                    <div class="col-12">
+                        <label asp-for="CreationDate" for="inputdate" class="form-label">Creation Date</label>
+                        <input asp-for="CreationDate" type="date" class="form-control" id="inputdate">
+                        <span asp-validation-for="CreationDate" class="text-danger"></span>
+
+                    </div>
+                    <div class="col-12">
+                        <label asp-for="UserId" for="inputUID" class="form-label">User ID</label>
+                        <input asp-for="UserId" type="number" class="form-control" id="inputUID">
+                        <span asp-validation-for="UserId" class="text-danger"></span>
+
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Save</button>
+                    <a class="btn btn-secondary">Cancel</a>
+
+                </form><!-- Vertical Form -->
+            </div>
+        </div>
+    </div>
+</main>
+
+@section Scripts {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}
