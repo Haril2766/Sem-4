@@ -83,57 +83,65 @@
 
 @using (Html.BeginForm("Save", "Question", FormMethod.Post, new { @class = "row g-3" }))
 {
-    <div class="col-12">
-        @Html.LabelFor(m => m.UserId, "User ID", new { @class = "form-label" })
-        <span class="text-danger">*</span>
-        @Html.DropDownListFor(m => m.UserId, new SelectList(ViewBag.UserList, "Value", "Text"), "Select User ID", new { @class = "form-select" })
-    </div>
+    @* <div class="col-12"> *@
+    @*     @Html.LabelFor(m => m.UserId, "User ID", new { @class = "form-label" }) *@
+    @*     <span class="text-danger">*</span> *@
+    @*     @Html.DropDownListFor(m => m.UserId, new SelectList(ViewBag.UserList, "Value", "Text"), "Select User ID", new { @class = "form-select" }) *@
+    @* </div> *@
 
     <div class="col-12">
+                        <span class="text-danger">*</span>
         @Html.LabelFor(m => m.QuestionText, "Question Text", new { @class = "form-label" })
-        <span class="text-danger">*</span>
+       
         @Html.TextBoxFor(m => m.QuestionText, new { @class = "form-control" })
     </div>
 
     <div class="col-12">
+                        <span class="text-danger">*</span>
         @Html.LabelFor(m => m.QuestionLevel, "Question Level", new { @class = "form-label" })
-        <span class="text-danger">*</span>
+        
         @Html.DropDownListFor(m => m.QuestionLevel, new SelectList(new[] { "Easy", "Medium", "Hard" }), "Select Difficulty", new { @class = "form-select" })
     </div>
 
     <div class="col-12">
+                        <span class="text-danger">*</span>
         @Html.LabelFor(m => m.OptionA, "Option A", new { @class = "form-label" })
-        <span class="text-danger">*</span>
+       
         @Html.TextBoxFor(m => m.OptionA, new { @class = "form-control" })
     </div>
 
     <div class="col-12">
+                        <span class="text-danger">*</span>
         @Html.LabelFor(m => m.OptionB, "Option B", new { @class = "form-label" })
-        <span class="text-danger">*</span>
+        
         @Html.TextBoxFor(m => m.OptionB, new { @class = "form-control" })
     </div>
 
     <div class="col-12">
+                        <span class="text-danger">*</span>
         @Html.LabelFor(m => m.OptionC, "Option C", new { @class = "form-label" })
-        <span class="text-danger">*</span>
+        
         @Html.TextBoxFor(m => m.OptionC, new { @class = "form-control" })
     </div>
 
     <div class="col-12">
+                        <span class="text-danger">*</span>
         @Html.LabelFor(m => m.OptionD, "Option D", new { @class = "form-label" })
-        <span class="text-danger">*</span>
+        
         @Html.TextBoxFor(m => m.OptionD, new { @class = "form-control" })
     </div>
 
     <div class="col-6">
+                        <span class="text-danger">*</span>
         @Html.LabelFor(m => m.CorrectAns, "Correct Option", new { @class = "form-label" })
-        <span class="text-danger">*</span>
+        
         @Html.DropDownListFor(m => m.CorrectAns, new SelectList(new[] { "Option A", "Option B", "Option C", "Option D" }), "Select Correct Answer", new { @class = "form-select" })
     </div>
 
     <div class="col-6">
+                        <span class="text-danger">*</span>
         @Html.LabelFor(m => m.Marks, "Question Mark", new { @class = "form-label" })
-        <span class="text-danger">*</span>
+       
         @Html.TextBoxFor(m => m.Marks, new { @class = "form-control", type = "number" })
     </div>
 
