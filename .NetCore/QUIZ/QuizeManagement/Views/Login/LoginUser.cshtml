@@ -27,14 +27,18 @@
                   <form class="row g-3" novalidate>
 
                       <div class="col-12">
-                          <label for="yourUsername" class="form-label" asp-for="UserName">Username/Email/MobileNo</label>
+                          <label for="yourUsername" class="form-label" asp-for="UserName">
+                                            <span class="text-danger">*</span>
+                              Username/Email/MobileNo</label>
                           <input type="text" class="form-control" id="yourUsername" asp-for="UserName">
                           <span asp-validation-for="UserName" class="text-danger"></span>
                       </div>
 
 
                     <div class="col-12">
-                      <label for="yourPassword" class="form-label" asp-for="PassWord">Password</label>
+                      <label for="yourPassword" class="form-label" asp-for="PassWord">
+                                            <span class="text-danger">*</span>
+                          Password</label>
                       <input type="password"  class="form-control" id="yourPassword" asp-for="PassWord">
                        <span asp-validation-for="PassWord" class="text-danger"></span>                   
                     </div>

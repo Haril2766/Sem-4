@@ -1,64 +1,148 @@
-﻿<main id="main" class="main">
+﻿@model QuizeManagement.Models.QuestionModel
+
+<main id="main" class="main">
     <div class="container">
         <div class="card">
             <div class="card-body">
                 <h5 class="card-title">Add New Question </h5>
-                <form class="row g-3">
-                    <div class="col-12">
-                        <label for="inputquesation4" class="form-label" placeholder="User Id">User  ID</label>
-                        <select id="inputState" class="form-select">
-                            <option selected disabled>User ID</option>
-                        </select>
-                    </div>
-                    <div class="col-12">
-                        <label for="inputquesation4" class="form-label">Question text</label>
-                        <input type="text" class="form-control" id="inputquesation4">
-                    </div>
-                    <div class="col-12">
-                        <label for="inputQuestions4" class="form-label">Question Level</label>
-                        @* <input type="number" class="form-control" id="inputQuestions4"> *@
-                            <select id="inputState" class="form-select">
-                                <option selected>Easy</option>
-                                <option>Medium</option>
-                                <option>Hard</option>
-                            </select>
-                    </div>
-                    <div class="col-12">
-                        <label for="inputOptionA4" class="form-label">Option A </label>
-                        <input type="text" class="form-control" id="inputOptionA4">
-                    </div>
-                    <div class="col-12">
-                        <label for="inputOptionB4" class="form-label">Option B </label>
-                        <input type="text" class="form-control" id="inputOptionB4">
-                    </div>
-                    <div class="col-12">
-                        <label for="inputOptionC4" class="form-label">Option C </label>
-                        <input type="text" class="form-control" id="inputOptionC4">
-                    </div>
-                    <div class="col-12">
-                        <label for="inputOptionD4" class="form-label">Option D </label>
-                        <input type="text" class="form-control" id="inputOptionD4">
-                    </div>
-                    <div class="col-6">
-                        <label for="inputState" class="form-label">Correct Option</label>
-                        <select id="inputState" class="form-select">
-                            <option selected>Option A</option>
-                            <option>Option B</option>
-                            <option>Option c</option>
-                            <option>Option D</option>
-                        </select>
-                    </div>
-                    <div class="col-6">
-                        <label for="inputQuestionsMark4" class="form-label">Question Mark</label>
-                        <input type="number" class="form-control" id="inputQuestionsMark4">
-                    </div>
+                @* <form class="row g-3"> *@
+                @*     <div class="col-12"> *@
+                @*         <label for="inputquesation4" class="form-label" placeholder="User Id"> *@
+                @*             <span class="text-danger">*</span> *@
+                @*             User  ID</label> *@
+                @*         <select id="inputState" class="form-select"> *@
+                @*             <option selected disabled>User ID</option> *@
+                @*         </select> *@
+                @*     </div> *@
+                @*     <div class="col-12"> *@
+                @*         <label for="inputquesation4" class="form-label"> *@
+                @*             <span class="text-danger">*</span> *@
+                @*             Question text</label> *@
+                @*         <input type="text" class="form-control" id="inputquesation4"> *@
+                @*     </div> *@
+                @*     <div class="col-12"> *@
+                @*         <label for="inputQuestions4" class="form-label"> *@
+                @*             <span class="text-danger">*</span> *@
+                @*             Question Level</label> *@
+                @*         @* <input type="number" class="form-control" id="inputQuestions4"> *@ 
+                @*             <select id="inputState" class="form-select"> *@
+                @*                 <option selected>Easy</option> *@
+                @*                 <option>Medium</option> *@
+                @*                 <option>Hard</option> *@
+                @*             </select> *@
+                @*     </div> *@
+                @*     <div class="col-12"> *@
+                @*         <label for="inputOptionA4" class="form-label"> *@
+                @*             <span class="text-danger">*</span> *@
+                @*             Option A </label> *@
+                @*         <input type="text" class="form-control" id="inputOptionA4"> *@
+                @*     </div> *@
+                @*     <div class="col-12"> *@
+                @*         <label for="inputOptionB4" class="form-label"> *@
+                @*             <span class="text-danger">*</span> *@
+                @*             Option B </label> *@
+                @*         <input type="text" class="form-control" id="inputOptionB4"> *@
+                @*     </div> *@
+                @*     <div class="col-12"> *@
+                @*         <label for="inputOptionC4" class="form-label"> *@
+                @*             <span class="text-danger">*</span> *@
+                @*             Option C </label> *@
+                @*         <input type="text" class="form-control" id="inputOptionC4"> *@
+                @*     </div> *@
+                @*     <div class="col-12"> *@
+                @*         <label for="inputOptionD4" class="form-label"> *@
+                @*             <span class="text-danger">*</span> *@
+                @*             Option D </label> *@
+                @*         <input type="text" class="form-control" id="inputOptionD4"> *@
+                @*     </div> *@
+                @*     <div class="col-6"> *@
+                @*         <label for="inputState" class="form-label"> *@
+                @*             <span class="text-danger">*</span> *@
+                @*             Correct Option</label> *@
+                @*         <select id="inputState" class="form-select"> *@
+                @*             <option selected>Option A</option> *@
+                @*             <option>Option B</option> *@
+                @*             <option>Option c</option> *@
+                @*             <option>Option D</option> *@
+                @*         </select> *@
+                @*     </div> *@
+                @*     <div class="col-6"> *@
+                @*         <label for="inputQuestionsMark4" class="form-label"> *@
+                @*             <span class="text-danger">*</span> *@
+                @*             Question Mark</label> *@
+                @*         <input type="number" class="form-control" id="inputQuestionsMark4"> *@
+                @*     </div> *@
 
 
-                    <div class="text-center">
-                        <button type="submit" class="btn btn-primary">Save</button>
-                        <a class="btn btn-secondary" asp-controller="Question" asp-action="List">Cancel</a>
-                    </div>
-                </form><!-- Vertical Form -->
+                @*     <div class="text-center"> *@
+                @*         <button type="submit" class="btn btn-primary">Save</button> *@
+                @*         <a class="btn btn-secondary" asp-controller="Question" asp-action="List">Cancel</a> *@
+                @*     </div> *@
+                @* </form><!-- Vertical Form --> *@
+             
+
+@using (Html.BeginForm("Save", "Question", FormMethod.Post, new { @class = "row g-3" }))
+{
+    <div class="col-12">
+        @Html.LabelFor(m => m.UserId, "User ID", new { @class = "form-label" })
+        <span class="text-danger">*</span>
+        @Html.DropDownListFor(m => m.UserId, new SelectList(ViewBag.UserList, "Value", "Text"), "Select User ID", new { @class = "form-select" })
+    </div>
+
+    <div class="col-12">
+        @Html.LabelFor(m => m.QuestionText, "Question Text", new { @class = "form-label" })
+        <span class="text-danger">*</span>
+        @Html.TextBoxFor(m => m.QuestionText, new { @class = "form-control" })
+    </div>
+
+    <div class="col-12">
+        @Html.LabelFor(m => m.QuestionLevel, "Question Level", new { @class = "form-label" })
+        <span class="text-danger">*</span>
+        @Html.DropDownListFor(m => m.QuestionLevel, new SelectList(new[] { "Easy", "Medium", "Hard" }), "Select Difficulty", new { @class = "form-select" })
+    </div>
+
+    <div class="col-12">
+        @Html.LabelFor(m => m.OptionA, "Option A", new { @class = "form-label" })
+        <span class="text-danger">*</span>
+        @Html.TextBoxFor(m => m.OptionA, new { @class = "form-control" })
+    </div>
+
+    <div class="col-12">
+        @Html.LabelFor(m => m.OptionB, "Option B", new { @class = "form-label" })
+        <span class="text-danger">*</span>
+        @Html.TextBoxFor(m => m.OptionB, new { @class = "form-control" })
+    </div>
+
+    <div class="col-12">
+        @Html.LabelFor(m => m.OptionC, "Option C", new { @class = "form-label" })
+        <span class="text-danger">*</span>
+        @Html.TextBoxFor(m => m.OptionC, new { @class = "form-control" })
+    </div>
+
+    <div class="col-12">
+        @Html.LabelFor(m => m.OptionD, "Option D", new { @class = "form-label" })
+        <span class="text-danger">*</span>
+        @Html.TextBoxFor(m => m.OptionD, new { @class = "form-control" })
+    </div>
+
+    <div class="col-6">
+        @Html.LabelFor(m => m.CorrectAns, "Correct Option", new { @class = "form-label" })
+        <span class="text-danger">*</span>
+        @Html.DropDownListFor(m => m.CorrectAns, new SelectList(new[] { "Option A", "Option B", "Option C", "Option D" }), "Select Correct Answer", new { @class = "form-select" })
+    </div>
+
+    <div class="col-6">
+        @Html.LabelFor(m => m.Marks, "Question Mark", new { @class = "form-label" })
+        <span class="text-danger">*</span>
+        @Html.TextBoxFor(m => m.Marks, new { @class = "form-control", type = "number" })
+    </div>
+
+    <div class="text-center mt-3">
+        <button type="submit" class="btn btn-primary">Save</button>
+        <a class="btn btn-secondary" asp-controller="Question" asp-action="List">Cancel</a>
+    </div>
+}
+
             </div>
         </div>
     </div>

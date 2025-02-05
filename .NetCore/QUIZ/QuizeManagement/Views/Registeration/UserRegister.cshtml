@@ -26,26 +26,34 @@
 
                                 <form class="row g-3" novalidate>
                                     <div class="col-12">
-                                        <label for="yourName" class="form-label" asp-for="Name">Your Name</label>
+                                        <label for="yourName" class="form-label" asp-for="Name">
+                                            <span class="text-danger">*</span>
+                                            Your Name</label>
                                         <input type="text" class="form-control" id="yourName" asp-for="Name" >
                                         <span class="text-danger" asp-validation-for="Name"></span>
                                         <div class="invalid-feedback">Please, enter your name!</div>
                                     </div>
 
                                     <div class="col-12">
-                                        <label for="yourEmail" class="form-label" asp-for="Email">Your Email</label>
+                                        <label for="yourEmail" class="form-label" asp-for="Email">
+                                            <span class="text-danger">*</span>
+                                            Your Email</label>
                                         <input type="email" asp-for="Email" class="form-control" id="yourEmail" required>
                                         <span asp-validation-for="Email" class="text-danger"></span>
                                     </div>
 
                                     <div class="col-12">
-                                        <label for="yourMobileNo" class="form-label">Your Mobile Number</label>
+                                        <label for="yourMobileNo" class="form-label">
+                                            <span class="text-danger">*</span>
+                                            Your Mobile Number</label>
                                         <input type="number" name="mobileNo" class="form-control" id="yourMobileNo" required>
                                         <div class="invalid-feedback">Please enter a valid Mobile Number!</div>
                                     </div>
 
                                     <div class="col-12">
-                                        <label for="yourUsername" class="form-label">Username</label>
+                                        <label for="yourUsername" class="form-label">
+                                            <span class="text-danger">*</span>
+                                            Username</label>
                                         <div class="input-group has-validation">
                                             <input type="text" name="username" class="form-control" id="yourUsername" required>
                                             <div class="invalid-feedback">Please choose a username.</div>
@@ -53,7 +61,9 @@
                                     </div>
 
                                     <div class="col-12">
-                                        <label for="yourPassword" class="form-label">Password</label>
+                                        <label for="yourPassword" class="form-label">
+                                            <span class="text-danger">*</span>
+                                            Password</label>
                                         <input type="password" name="password" class="form-control" id="yourPassword" required>
                                         <div class="invalid-feedback">Please enter your password!</div>
                                     </div>

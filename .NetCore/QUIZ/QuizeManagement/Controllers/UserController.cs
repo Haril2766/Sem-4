@@ -8,5 +8,10 @@ namespace QuizeManagement.Controllers
         {
             return View();
         }
+
+        public IActionResult UserAdd()
+        {
+            return View();
+        }
     }
 }
