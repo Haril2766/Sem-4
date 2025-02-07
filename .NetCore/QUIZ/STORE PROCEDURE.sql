@@ -1,4 +1,3 @@
-`
 USE CSE_4A_ASP_DOTNET
 
 -- Creating MST_User table

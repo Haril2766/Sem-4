@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\QUIZ\\QuizeManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|c:\\users\\parma\\desktop\\sem-4\\.netcore\\quiz\\quizemanagement\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|solutionrelative:controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|c:\\users\\parma\\desktop\\sem-4\\.netcore\\quiz\\quizemanagement\\controllers\\questionlevelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|solutionrelative:controllers\\questionlevelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|c:\\users\\parma\\desktop\\sem-4\\.netcore\\quiz\\quizemanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|c:\\users\\parma\\desktop\\sem-4\\.netcore\\quiz\\quizemanagement\\views\\questionlevel\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|solutionrelative:views\\questionlevel\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -27,10 +39,6 @@
       "RelativeMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|solutionrelative:models\\questionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|c:\\users\\parma\\desktop\\sem-4\\.netcore\\quiz\\quizemanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|c:\\users\\parma\\desktop\\sem-4\\.netcore\\quiz\\quizemanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -42,24 +50,51 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\QUIZ\\QuizeManagement\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\QUIZ\\QuizeManagement\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAGwBAAAAAAAAAAAAAIUBAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAGcBAAAAAAAAAEBVwIUBAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-25T04:39:07.461Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuizController.cs",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\QUIZ\\QuizeManagement\\Controllers\\QuizController.cs",
+              "RelativeDocumentMoniker": "Controllers\\QuizController.cs",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\QUIZ\\QuizeManagement\\Controllers\\QuizController.cs",
+              "RelativeToolTip": "Controllers\\QuizController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T05:56:52.083Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "QuestionLevelController.cs",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\QUIZ\\QuizeManagement\\Controllers\\QuestionLevelController.cs",
+              "RelativeDocumentMoniker": "Controllers\\QuestionLevelController.cs",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\QUIZ\\QuizeManagement\\Controllers\\QuestionLevelController.cs",
+              "RelativeToolTip": "Controllers\\QuestionLevelController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T05:56:46.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "QuestionLevelModel.cs",
               "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\QUIZ\\QuizeManagement\\Models\\QuestionLevelModel.cs",
               "RelativeDocumentMoniker": "Models\\QuestionLevelModel.cs",
@@ -72,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\QUIZ\\QuizeManagement\\Views\\QuestionLevel\\Add.cshtml",
               "RelativeDocumentMoniker": "Views\\QuestionLevel\\Add.cshtml",
@@ -85,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\QUIZ\\QuizeManagement\\Views\\Quiz\\Add.cshtml",
               "RelativeDocumentMoniker": "Views\\Quiz\\Add.cshtml",
@@ -98,31 +133,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "QuizeManagement.csproj",
               "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\QUIZ\\QuizeManagement\\QuizeManagement.csproj",
               "RelativeDocumentMoniker": "QuizeManagement.csproj",
-              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\QUIZ\\QuizeManagement\\QuizeManagement.csproj",
-              "RelativeToolTip": "QuizeManagement.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\QUIZ\\QuizeManagement\\QuizeManagement.csproj*",
+              "RelativeToolTip": "QuizeManagement.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-05T04:28:30.725Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\QUIZ\\QuizeManagement\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\QUIZ\\QuizeManagement\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-05T04:13:22.641Z"
+              "WhenOpened": "2025-02-05T04:28:30.725Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\QUIZ\\QuizeManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\QUIZ\\QuizeManagement\\appsettings.json*",
+              "RelativeToolTip": "appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-05T04:13:22.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\QUIZ\\QuizeManagement\\Views\\Question\\Add.cshtml",
               "RelativeDocumentMoniker": "Views\\Question\\Add.cshtml",
@@ -135,15 +172,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "QuestionModel.cs",
               "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\QUIZ\\QuizeManagement\\Models\\QuestionModel.cs",
               "RelativeDocumentMoniker": "Models\\QuestionModel.cs",
               "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\QUIZ\\QuizeManagement\\Models\\QuestionModel.cs",
               "RelativeToolTip": "Models\\QuestionModel.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAA4wAQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T15:37:31.961Z"
+              "WhenOpened": "2025-02-04T15:37:31.961Z",
+              "EditorCaption": ""
             }
           ]
         }
