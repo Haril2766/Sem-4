@@ -4,7 +4,7 @@ namespace QuizeManagement.Models
 {
     public class LoginModel
     {
-        [Required(ErrorMessage = "Please Enter Name")]
+        [Required(ErrorMessage = "Please Enter UserName")]
         [Display(Name ="Please enter your name")]
         public string UserName { get; set; }
 

@@ -39,15 +39,15 @@
                         <div class="col-12">
                             <span class="text-danger">*</span>
                             @Html.LabelFor(QuestionLevelModel => QuestionLevelModel.UserId, "User ID", new { @class = "form-label" })
-                            @Html.DropDownListFor(QuestionLevelModel => QuestionLevelModel.UserId, new SelectList(new List<SelectListItem>{}), new { @class = "form-select", required = "required" })
-                            @Html.ValidationMessageFor(QuestionLevelModel => QuestionLevelModel.UserId)
+                            @Html.DropDownListFor(QuestionLevelModel => QuestionLevelModel.UserId, new SelectList(new List<SelectListItem> { })," Enter User Id", new { @class = "form-select", required = "required", placeholder = ""   })
+                            @Html.ValidationMessageFor(QuestionLevelModel => QuestionLevelModel.UserId, "", new { @class = "text-danger" })
                         </div>
 
                         <div class="col-12">
-
+                            <span class="text-danger">*</span>
                             @Html.LabelFor(QuestionLevelModel => QuestionLevelModel.Level, "Question Level", new { @class = "form-label" })
                             @Html.TextBoxFor(QuestionLevelModel => QuestionLevelModel.Level, new { @class = "form-control", placeholder = "Enter Question Level", required = "required" })
-                            @Html.ValidationMessageFor(QuestionLevelModel => QuestionLevelModel.Level)
+                            @Html.ValidationMessageFor(QuestionLevelModel => QuestionLevelModel.Level, "", new { @class = "text-danger" })
                         </div>
 
                         <div class="text-center">

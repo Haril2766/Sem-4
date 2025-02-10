@@ -101,3 +101,11 @@ C:\Users\parma\Desktop\Sem-4\.NetCore\QUIZ\QuizeManagement\obj\Debug\net8.0\refi
 C:\Users\parma\Desktop\Sem-4\.NetCore\QUIZ\QuizeManagement\obj\Debug\net8.0\QuizeManagement.pdb
 C:\Users\parma\Desktop\Sem-4\.NetCore\QUIZ\QuizeManagement\obj\Debug\net8.0\QuizeManagement.genruntimeconfig.cache
 C:\Users\parma\Desktop\Sem-4\.NetCore\QUIZ\QuizeManagement\obj\Debug\net8.0\ref\QuizeManagement.dll
+C:\Users\parma\Desktop\Sem-4\.NetCore\QUIZ\QuizeManagement\obj\Debug\net8.0\QuizeManagement.csproj.AssemblyReference.cache
+C:\Users\parma\Desktop\Sem-4\.NetCore\QUIZ\QuizeManagement\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\parma\Desktop\Sem-4\.NetCore\QUIZ\QuizeManagement\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\parma\Desktop\Sem-4\.NetCore\QUIZ\QuizeManagement\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\parma\Desktop\Sem-4\.NetCore\QUIZ\QuizeManagement\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\parma\Desktop\Sem-4\.NetCore\QUIZ\QuizeManagement\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\parma\Desktop\Sem-4\.NetCore\QUIZ\QuizeManagement\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\parma\Desktop\Sem-4\.NetCore\QUIZ\QuizeManagement\obj\Debug\net8.0\QuizeMan.840DE0B8.Up2Date

@@ -1,4 +1,7 @@
-﻿<main id="main" class="main">
+﻿@model DataTable
+@using System.Data
+
+<main id="main" class="main">
     <div class="container">
         <!-- Search Section -->
         <div class="card mb-4">
@@ -47,6 +50,19 @@
                                     </tr>
                                 </thead>
                                 <tbody>
+                                        @foreach(DataRow row in Model.Rows){
+                                        <tr>
+                                            <td>@row["QuizID"]</td>
+                                            <td>@row["QuizName"]</td>
+                                            <td>@row["TotalQuestion"]</td>
+                                            <td>@row["QuizDate"]</td>
+                                            <td>@row["UserId"]</td>
+                                            <td>
+                                                <button class="btn btn-primary btn-sm">Edit</button>
+                                                <button class="btn btn-danger btn-sm">Delete</button>
+                                            </td>
+                                        </tr>
+                                        }
                                     <tr>
                                         <td>1</td>
                                         <td>General Knowledge</td>
