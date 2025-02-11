@@ -30,88 +30,66 @@
                 <h5>Question List</h5>
                 <a class="btn btn-success" id="addQuestionBtn" asp-controller="Question" asp-action="Add">Add Questions</a>
             </div>
-            <div class="card-body" float="s">
-                    <div class="row">
-                        <div class="col-lg-12">
-
-                            <div class="card">
-                                
-                                    <!-- Table with stripped rows -->
-                            <table class="table datatable">
-
-                                <thead>
-                                    <tr>
-                                        <th>
-                                            <b>Q</b>uestion ID
-                                        </th>
-                                        <th>Question Text</th>
-                                        <th>Option A</th>
-                                        <th>Option B</th>
-                                        <th>Option C</th>
-                                        <th>Option D</th>
-                                        <th>Correct Option</th>
-                                        <th>Question Marks</th>
-                                        <th>User Name</th>
-                                        <th>Action</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>
-                                            ASP.NET is a ____.
-                                        </td>
-                                        <td>
-                                            Client-Side technology
-                                        </td>
-                                        <td>
-                                            Server-side technology
-                                        </td>
-                                        <td>Both</td>
-                                        <td>None</td>
-                                        <td>B</td>
-                                        <td>25</td>
-                                        <td>Karan</td>
-                                        <td>
-                                            <a href="#" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-pencil"></i></a>
-                                            <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>
-                                            What is the full form ASP?
-                                        </td>
-                                        <td>
-                                            Access Server Pages
-                                        </td>
-                                        <td>
-                                            Active Service Pages
-                                        </td>
-                                        <td>
-                                            Active Server Pages
-                                        </td>
-                                        <td>
-                                            Access Service Pages
-                                        </td>
-                                        <td>C</td>
-                                        <td>20</td>
-                                        <td>Yash</td>
-                                        <td>
-                                            <a href="#" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-pencil"></i></a>
-                                            <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-
-                                    <!-- End Table with stripped rows -->
-
-                                </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <!-- Table with stripped rows -->
+                            <div class="table-responsive">
+                                <table class="table datatable">
+                                    <thead>
+                                        <tr>
+                                            <th><b>Q</b>uestion ID</th>
+                                            <th>Question Text</th>
+                                            <th>Option A</th>
+                                            <th>Option B</th>
+                                            <th>Option C</th>
+                                            <th>Option D</th>
+                                            <th>Correct Option</th>
+                                            <th>Question Marks</th>
+                                            <th>User Name</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>ASP.NET is a ____.</td>
+                                            <td>Client-Side technology</td>
+                                            <td>Server-side technology</td>
+                                            <td>Both</td>
+                                            <td>None</td>
+                                            <td>B</td>
+                                            <td>25</td>
+                                            <td>Karan</td>
+                                            <td>
+                                                <a href="#" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-pencil"></i></a>
+                                                <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>What is the full form ASP?</td>
+                                            <td>Access Server Pages</td>
+                                            <td>Active Service Pages</td>
+                                            <td>Active Server Pages</td>
+                                            <td>Access Service Pages</td>
+                                            <td>C</td>
+                                            <td>20</td>
+                                            <td>Yash</td>
+                                            <td>
+                                                <a href="#" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-pencil"></i></a>
+                                                <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
-
+                            <!-- End Table with stripped rows -->
                         </div>
                     </div>
+                </div>
             </div>
         </div>
+    </div>
 </main>

@@ -44,10 +44,9 @@
                     <div class="row g-3">
                         <div class="col-12">
                             <span class="text-danger">*</span>
-                            @Html.LabelFor(model => model.UserID, "User ID", new { @class = "form-label" })
-                            @Html.DropDownListFor(model => model.UserID, new SelectList(new List<SelectListItem>{}), "User Id" ,new { @class = "form-select", required = "required" })
-                            @Html.ValidationMessageFor(model => model.UserID,"", new { @class = "text-danger" })
-
+                            @Html.LabelFor(model => model.UserName, "User ID", new { @class = "form-label" })
+                            @Html.DropDownListFor(model => model.UserName, new SelectList(new List<SelectListItem>{}), "User Id" ,new { @class = "form-select", required = "required" })
+                            @Html.ValidationMessageFor(model => model.UserName,"", new { @class = "text-danger" })
                         </div>
 
                         <div class="col-12">

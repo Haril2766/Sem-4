@@ -18,12 +18,12 @@ namespace QuizeManagement.Controllers
         }
         public IActionResult List()
         {
-            string connectionString = this.configuration.GetConnectionString("ConnectionString");
+            string connectionString = configuration.GetConnectionString("ConnectionString");
             SqlConnection connection = new SqlConnection(connectionString);
             connection.Open();
             SqlCommand command = connection.CreateCommand();
             command.CommandType = CommandType.StoredProcedure;
-            command.CommandText = "PR_Quiz_SelectAll";
+            command.CommandText = "PR_MST_Quiz_SelectAll";
             SqlDataReader reader = command.ExecuteReader();
             DataTable table = new DataTable();
             table.Load(reader);

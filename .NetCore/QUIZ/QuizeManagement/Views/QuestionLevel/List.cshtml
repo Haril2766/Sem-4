@@ -1,93 +1,56 @@
-﻿<main id="main" class="main">
-    <div class="container mt-5">
-        <!-- Search Section -->
-        <div class="card mb-4"> 
-            <div class="card-header">
-                <h5>Search Questions</h5>
-            </div>
-            <div class="card-body">
-                <form id="searchForm">
-                    <div class="row g-3">
-                        <div class="col-md-6">
-                            <input type="text" class="form-control" id="searchText" placeholder="Enter question text">
-                        </div>
-                        <div class="col-md-3">
-                            <select class="form-select" id="searchLevel">
-                                <option value="">Select Level</option>
-                                <option value="1">Easy</option>
-                                <option value="2">Medium</option>
-                                <option value="3">Hard</option>
-                            </select>
-                        </div>
-                        <div class="col-md-3">
-                            <button type="button" class="btn btn-primary w-100" id="searchBtn">Search</button>
-                        </div>
-                    </div>
-                    <div class="mt-3">
-                        <button type="button" class="btn btn-secondary" id="resetBtn">Reset</button>
-                    </div>
-                </form>
-            </div>
-        </div>
+﻿@model DataTable
+@using System.Data
 
+<main id="main" class="main">
+    <div class="container">
+        <div class="pagetitle">
+            <h1>Question Level List</h1>
+            <nav>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a asp-controller="Dashboard" asp-action="DashboardView">Home</a></li>
+                    <li class="breadcrumb-item">QuestionLevel</li>
+                    <li class="breadcrumb-item active"><a asp-controller="QuestionLevel" asp-action="List">QuestionLevelList</a></li>
+                </ol>
+            </nav>
+        </div><!-- End Page Title -->
         <!-- Question List Section -->
         <div class="card">
             <div class="card-body">
                 <div class="card-header d-flex justify-content-between align-items-center">
-                <h2 class="card-title">Question Level List</h2>
-                <div class="d-flex p-3 justify-content-end">
-                        <a asp-controller="QuestionLevel" asp-action="Add" class="btn btn-primary w-20">
-                        <i class="bi bi-plus"></i> Add Question Level
-                    </a>
+                    <h2 class="card-title">Question Level List</h2>
+                    <div class="d-flex p-3 justify-content-end">
+                        <a class="btn btn-success" id="addQuestionBtn" asp-controller="QuestionLevel" asp-action="Add">Add Question Level</a>
+                    </div>
                 </div>
-                </div>
-                <table class="table datatable">
+                <table class="table table-striped">
 
                     <thead>
                         <tr>
-                            <th>QuestionLevelID</th>
-                            <th>QuestionLevel</th>
-                            <th>User ID</th>
-                            <th>Created</th>
-                            <th>Modified</th>
+                            @* <th></th> <!-- For Checkbox Column --> *@
+                            <th>Question Level</th>
+                            <th>User Name</th>
                             <th>Action</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>15</td>
-                            <td>101</td>
-                            <td>2002/08/04</td>
-                            <td>2002/08/06</td>
-                            <td>
-                                <a href="#" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-pencil"></i></a>
-                                <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>25</td>
-                            <td>102</td>
-                            <td>2020/12/17</td>
-                            <td>2020/12/08</td>
-                            <td>
-                                <a href="#" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-pencil"></i></a>
-                                <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>20</td>
-                            <td>103</td>
-                            <td>2021/09/12</td>
-                            <td>2021/09/15</td>
-                            <td>
-                                <a href="#" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-pencil"></i></a>
-                                <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a>
-                            </td>
-                        </tr>
+                        @foreach (DataRow row in Model.Rows)
+                        {
+                            <tr>
+                                @* <td class="col-1"> *@
+                                @*     <input class="form-check-input" type="checkbox" id="gridCheck"> *@
+                                @* </td> *@
+                                <td class="col-4">@row["QuestionLevel"]</td>
+                                <td class="col-4">@row["UserName"]</td>
+                                <td class="col-4">
+                                    <a href="#" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-pencil"></i></a>
+                                    <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a>
+                                    @* <a href="#" class="btn btn-success btn-sm"><i class="bi bi-pencil"></i> Edit</a> *@
+                                    @* <a href="#" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i> Delete</a> *@
+                                </td>
+                            </tr>
+                        }
                     </tbody>
+
                 </table>
 
             </div>
