@@ -1,82 +1,82 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\parma\\Desktop\\Address Book\\",
+  "WorkspaceRootPath": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|c:\\users\\parma\\desktop\\address book\\views\\helper\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|solutionrelative:views\\helper\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Views\\Helper\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Helper\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|c:\\users\\parma\\desktop\\address book\\models\\helpermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|solutionrelative:models\\helpermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Models\\HelperModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\HelperModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|c:\\users\\parma\\desktop\\address book\\views\\country\\country.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|solutionrelative:views\\country\\country.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Controllers\\HelperController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\HelperController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|c:\\users\\parma\\desktop\\address book\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Views\\City\\City.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\City\\City.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|c:\\users\\parma\\desktop\\address book\\controllers\\helpercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|solutionrelative:controllers\\helpercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Views\\State\\State.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\State\\State.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|c:\\users\\parma\\desktop\\address book\\views\\home\\student.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|solutionrelative:views\\home\\student.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Controllers\\CityController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\CityController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|c:\\users\\parma\\desktop\\address book\\views\\state\\state.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|solutionrelative:views\\state\\state.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Controllers\\StateController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\StateController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|c:\\users\\parma\\desktop\\address book\\views\\city\\city.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|solutionrelative:views\\city\\city.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Models\\StateModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\StateModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|c:\\users\\parma\\desktop\\address book\\models\\citymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|solutionrelative:models\\citymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Models\\CountryModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\CountryModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|c:\\users\\parma\\desktop\\address book\\models\\statemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|solutionrelative:models\\statemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Views\\Country\\Country.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Country\\Country.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|c:\\users\\parma\\desktop\\address book\\models\\countrymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|solutionrelative:models\\countrymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Views\\Home\\Student.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Home\\Student.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|c:\\users\\parma\\desktop\\address book\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|solutionrelative:controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Models\\CityModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\CityModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|c:\\users\\parma\\desktop\\address book\\controllers\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|solutionrelative:controllers\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Models\\StudentModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\StudentModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|c:\\users\\parma\\desktop\\address book\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|c:\\users\\parma\\desktop\\address book\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|solutionrelative:controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|c:\\users\\parma\\desktop\\address book\\models\\studentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|solutionrelative:models\\studentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Controllers\\CountryController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\CountryController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|c:\\users\\parma\\desktop\\address book\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|solutionrelative:wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Controllers\\StudentController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\StudentController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|c:\\users\\parma\\desktop\\address book\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Views\\Shared\\_ValidationScriptsPartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Shared\\_ValidationScriptsPartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|c:\\users\\parma\\desktop\\address book\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B9CD8E99-02A3-43D5-99C0-49DE193FEE89}|Address Book.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -92,48 +92,46 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "HelperModel.cs",
-              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\Models\\HelperModel.cs",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Models\\HelperModel.cs",
               "RelativeDocumentMoniker": "Models\\HelperModel.cs",
-              "ToolTip": "C:\\Users\\parma\\Desktop\\Address Book\\Models\\HelperModel.cs",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Models\\HelperModel.cs",
               "RelativeToolTip": "Models\\HelperModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T04:38:14.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T04:38:14.098Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\Views\\Helper\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Views\\Helper\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Helper\\Index.cshtml",
-              "ToolTip": "C:\\Users\\parma\\Desktop\\Address Book\\Views\\Helper\\Index.cshtml",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Views\\Helper\\Index.cshtml",
               "RelativeToolTip": "Views\\Helper\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-04T04:37:47.101Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "HelperController.cs",
-              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\Controllers\\HelperController.cs",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Controllers\\HelperController.cs",
               "RelativeDocumentMoniker": "Controllers\\HelperController.cs",
-              "ToolTip": "C:\\Users\\parma\\Desktop\\Address Book\\Controllers\\HelperController.cs",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Controllers\\HelperController.cs",
               "RelativeToolTip": "Controllers\\HelperController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T04:37:34.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T04:37:34.614Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "City.cshtml",
-              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\Views\\City\\City.cshtml",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Views\\City\\City.cshtml",
               "RelativeDocumentMoniker": "Views\\City\\City.cshtml",
-              "ToolTip": "C:\\Users\\parma\\Desktop\\Address Book\\Views\\City\\City.cshtml",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Views\\City\\City.cshtml",
               "RelativeToolTip": "Views\\City\\City.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -141,11 +139,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "State.cshtml",
-              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\Views\\State\\State.cshtml",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Views\\State\\State.cshtml",
               "RelativeDocumentMoniker": "Views\\State\\State.cshtml",
-              "ToolTip": "C:\\Users\\parma\\Desktop\\Address Book\\Views\\State\\State.cshtml",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Views\\State\\State.cshtml",
               "RelativeToolTip": "Views\\State\\State.cshtml",
               "ViewState": "AgIAACEAAAAAAAAAAAAswDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -153,11 +151,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
               "Title": "CityController.cs",
-              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\Controllers\\CityController.cs",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Controllers\\CityController.cs",
               "RelativeDocumentMoniker": "Controllers\\CityController.cs",
-              "ToolTip": "C:\\Users\\parma\\Desktop\\Address Book\\Controllers\\CityController.cs",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Controllers\\CityController.cs",
               "RelativeToolTip": "Controllers\\CityController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -165,11 +163,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
               "Title": "StateController.cs",
-              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\Controllers\\StateController.cs",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Controllers\\StateController.cs",
               "RelativeDocumentMoniker": "Controllers\\StateController.cs",
-              "ToolTip": "C:\\Users\\parma\\Desktop\\Address Book\\Controllers\\StateController.cs",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Controllers\\StateController.cs",
               "RelativeToolTip": "Controllers\\StateController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -177,11 +175,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "StateModel.cs",
-              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\Models\\StateModel.cs",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Models\\StateModel.cs",
               "RelativeDocumentMoniker": "Models\\StateModel.cs",
-              "ToolTip": "C:\\Users\\parma\\Desktop\\Address Book\\Models\\StateModel.cs",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Models\\StateModel.cs",
               "RelativeToolTip": "Models\\StateModel.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwBwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -189,11 +187,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "CountryModel.cs",
-              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\Models\\CountryModel.cs",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Models\\CountryModel.cs",
               "RelativeDocumentMoniker": "Models\\CountryModel.cs",
-              "ToolTip": "C:\\Users\\parma\\Desktop\\Address Book\\Models\\CountryModel.cs",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Models\\CountryModel.cs",
               "RelativeToolTip": "Models\\CountryModel.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAQwA8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -201,37 +199,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Country.cshtml",
-              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\Views\\Country\\Country.cshtml",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Views\\Country\\Country.cshtml",
               "RelativeDocumentMoniker": "Views\\Country\\Country.cshtml",
-              "ToolTip": "C:\\Users\\parma\\Desktop\\Address Book\\Views\\Country\\Country.cshtml",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Views\\Country\\Country.cshtml",
               "RelativeToolTip": "Views\\Country\\Country.cshtml",
               "ViewState": "AgIAABwAAAAAAAAAAAAgwDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-03T04:47:28.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T04:47:28.511Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Student.cshtml",
-              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\Views\\Home\\Student.cshtml",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Views\\Home\\Student.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Student.cshtml",
-              "ToolTip": "C:\\Users\\parma\\Desktop\\Address Book\\Views\\Home\\Student.cshtml",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Views\\Home\\Student.cshtml",
               "RelativeToolTip": "Views\\Home\\Student.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-30T05:20:54.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T05:20:54.653Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "CityModel.cs",
-              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\Models\\CityModel.cs",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Models\\CityModel.cs",
               "RelativeDocumentMoniker": "Models\\CityModel.cs",
-              "ToolTip": "C:\\Users\\parma\\Desktop\\Address Book\\Models\\CityModel.cs",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Models\\CityModel.cs",
               "RelativeToolTip": "Models\\CityModel.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAkwB4AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -239,11 +235,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 12,
               "Title": "StudentModel.cs",
-              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\Models\\StudentModel.cs",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Models\\StudentModel.cs",
               "RelativeDocumentMoniker": "Models\\StudentModel.cs",
-              "ToolTip": "C:\\Users\\parma\\Desktop\\Address Book\\Models\\StudentModel.cs",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Models\\StudentModel.cs",
               "RelativeToolTip": "Models\\StudentModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -251,24 +247,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\parma\\Desktop\\Address Book\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAACEBAAAAAAAAAAAgwDgBAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-27T04:41:46.637Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T04:41:46.637Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 14,
               "Title": "jquery.js",
-              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\wwwroot\\lib\\jquery\\dist\\jquery.js",
               "RelativeDocumentMoniker": "wwwroot\\lib\\jquery\\dist\\jquery.js",
-              "ToolTip": "C:\\Users\\parma\\Desktop\\Address Book\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\wwwroot\\lib\\jquery\\dist\\jquery.js",
               "RelativeToolTip": "wwwroot\\lib\\jquery\\dist\\jquery.js",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -276,11 +271,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "CountryController.cs",
-              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\Controllers\\CountryController.cs",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Controllers\\CountryController.cs",
               "RelativeDocumentMoniker": "Controllers\\CountryController.cs",
-              "ToolTip": "C:\\Users\\parma\\Desktop\\Address Book\\Controllers\\CountryController.cs",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Controllers\\CountryController.cs",
               "RelativeToolTip": "Controllers\\CountryController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -288,11 +283,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\Controllers\\StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\parma\\Desktop\\Address Book\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Controllers\\StudentController.cs",
               "RelativeToolTip": "Controllers\\StudentController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -300,11 +295,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\parma\\Desktop\\Address Book\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -312,11 +307,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Address Book\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\parma\\Desktop\\Address Book\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\Sem-4\\.NetCore\\Themes\\Address Book\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAYwBcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

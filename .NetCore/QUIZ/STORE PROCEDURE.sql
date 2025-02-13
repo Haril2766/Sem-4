@@ -638,7 +638,6 @@ END
 
 ------------------------------------------------------------------------------------------------
 --model with data anomation
---select all column name
 --Scroll
 --add user
 --user id

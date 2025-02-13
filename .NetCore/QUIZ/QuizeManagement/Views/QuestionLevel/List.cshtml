@@ -22,37 +22,49 @@
                         <a class="btn btn-success" id="addQuestionBtn" asp-controller="QuestionLevel" asp-action="Add">Add Question Level</a>
                     </div>
                 </div>
-                <table class="table table-striped">
 
-                    <thead>
-                        <tr>
-                            @* <th></th> <!-- For Checkbox Column --> *@
-                            <th>Question Level</th>
-                            <th>User Name</th>
-                            <th>Action</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @foreach (DataRow row in Model.Rows)
-                        {
-                            <tr>
-                                @* <td class="col-1"> *@
-                                @*     <input class="form-check-input" type="checkbox" id="gridCheck"> *@
-                                @* </td> *@
-                                <td class="col-4">@row["QuestionLevel"]</td>
-                                <td class="col-4">@row["UserName"]</td>
-                                <td class="col-4">
-                                    <a href="#" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-pencil"></i></a>
-                                    <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a>
-                                    @* <a href="#" class="btn btn-success btn-sm"><i class="bi bi-pencil"></i> Edit</a> *@
-                                    @* <a href="#" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i> Delete</a> *@
-                                </td>
-                            </tr>
-                        }
-                    </tbody>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="table-responsive">
+                                    <table class="table datatable">
 
-                </table>
+                                    <thead>
+                                        <tr>
+                                            @* <th></th> <!-- For Checkbox Column --> *@
+                                            <th>Question Level</th>
+                                            <th>User Name</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (DataRow row in Model.Rows)
+                                        {
+                                            <tr>
+                                                @* <td class="col-1"> *@
+                                                @*     <input class="form-check-input" type="checkbox" id="gridCheck"> *@
+                                                @* </td> *@
+                                                <td class="col-4">@row["QuestionLevel"]</td>
+                                                <td class="col-4">@row["UserName"]</td>
+                                                <td class="col-4">
+                                                    <a href="#" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-pencil"></i></a>
+                                                    <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a>
+                                                    @* <a href="#" class="btn btn-success btn-sm"><i class="bi bi-pencil"></i> Edit</a> *@
+                                                    @* <a href="#" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i> Delete</a> *@
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
 
+                                </table>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
             </div>
         </div>
     </div>

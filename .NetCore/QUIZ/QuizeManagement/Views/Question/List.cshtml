@@ -1,4 +1,8 @@
-﻿<main id="main" class="main">
+﻿@model DataTable
+@using System.Data
+
+
+<main id="main" class="main">
     <div class="container mt-5">
         <!-- Search Section -->
         <div class="card mb-4">
@@ -38,7 +42,7 @@
                             <div class="table-responsive">
                                 <table class="table datatable">
                                     <thead>
-                                        <tr>
+                                      <tr>
                                             <th><b>Q</b>uestion ID</th>
                                             <th>Question Text</th>
                                             <th>Option A</th>
@@ -52,36 +56,25 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>ASP.NET is a ____.</td>
-                                            <td>Client-Side technology</td>
-                                            <td>Server-side technology</td>
-                                            <td>Both</td>
-                                            <td>None</td>
-                                            <td>B</td>
-                                            <td>25</td>
-                                            <td>Karan</td>
-                                            <td>
-                                                <a href="#" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-pencil"></i></a>
-                                                <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>What is the full form ASP?</td>
-                                            <td>Access Server Pages</td>
-                                            <td>Active Service Pages</td>
-                                            <td>Active Server Pages</td>
-                                            <td>Access Service Pages</td>
-                                            <td>C</td>
-                                            <td>20</td>
-                                            <td>Yash</td>
-                                            <td>
-                                                <a href="#" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-pencil"></i></a>
-                                                <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a>
-                                            </td>
-                                        </tr>
+                                        @foreach (DataRow row in Model.Rows)
+                                        {
+                                            <tr>
+                                                <td>@row["QuestionID"]</td>
+                                                <td>@row["QuestionText"]</td>
+                                                <td>@row["OptionA"]</td>
+                                                <td>@row["OptionB"]</td>
+                                                <td>@row["OptionC"]</td>
+                                                <td>@row["OptionD"]</td>
+                                                <td>@row["CorrectOption"]</td>
+                                                <td>@row["QuestionMarks"]</td>
+                                                <td>@row["UserName"]</td>
+                                                <td>
+                                                    <a href="#" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-pencil"></i></a>
+                                                    <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a>
+                                                </td>
+
+                                            </tr>
+                                        }
                                     </tbody>
                                 </table>
                             </div>
