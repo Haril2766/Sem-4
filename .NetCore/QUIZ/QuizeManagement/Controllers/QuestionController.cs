@@ -16,7 +16,7 @@ namespace QuizeManagement.Controllers
         {
             return View();
         }
-        public IActionResult QuestionList()
+        public IActionResult List()
         {
             string connectionString = configuration.GetConnectionString("ConnectionString");
             SqlConnection connection = new SqlConnection(connectionString);
